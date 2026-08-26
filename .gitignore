@@ -1,0 +1,9 @@
+gl.json
+essiposseller.json
+a.ipynb
+a.xml
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.claude/settings.local.json
