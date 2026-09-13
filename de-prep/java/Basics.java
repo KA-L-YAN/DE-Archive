@@ -12,7 +12,7 @@ public class Basics {
         print("We practice all the Java basics here.");
         Set<Basics> setb = new HashSet<>();
         setb.add(new Basics(1,2));
-        print(set.conta)
+        print(setb.contains(new Basics(1,2)));
 
     }
 
