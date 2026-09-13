@@ -29,3 +29,10 @@ public class Basics {
     }
 
 }
+
+
+/**
+ * 1. I have tried it out and it print false. the equal seems correct but here why I think it print false,
+ * We have added 1,2 to the set with add() with one anonymous object and the we created another anonymous object to check if 1 and 2 exist or not.
+ * 2. 
+ */
