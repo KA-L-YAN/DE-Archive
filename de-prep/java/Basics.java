@@ -27,5 +27,5 @@ public class Basics {
         Basics b = (Basics) o;
         return x == b.x && y == b.y;
     }
-
+    
 }
