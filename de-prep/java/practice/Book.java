@@ -39,5 +39,12 @@ public class Book {
     public void setAvailability(boolean isAvailable){
         this.isAvailable = isAvailable;
     }
-    public 
+    public boolean getAvailability(){
+        return this.isAvailable;
+    }
+
+    @Override
+    public String toString() {
+        return "Book [title=" + title + ", author=" + author + ", isbn=" + isbn + ", isAvailable=" + isAvailable + "]";
+    }
 }
