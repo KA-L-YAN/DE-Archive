@@ -27,7 +27,21 @@ public class Sample {
 
     public void average(Set<Integer> set){
         set.stream().mapToInt(Integer::intValue).average().orElse(0);
-        set.stream().reduce()
     }
 
+    public void max(List<Integer> list){
+        list.stream().mapToInt(Integer::intValue).max();
+        list.stream().max(Integer::compare).orElse(0);
+        list.stream().max(Integer::compareTo).orElse(0);
+    }
+
+    public void min(List<Integer> list){
+        list.stream().min(Integer::compareTo).get();
+        list.stream().min(Integer::compare).get();
+        list.stream().mapToInt(Integer::intValue).min();
+    }
+
+    public void count(List<Integer> list){
+        list.stream().count();
+    }
 }
