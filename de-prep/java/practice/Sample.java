@@ -9,7 +9,9 @@ public class Sample {
     }
 
     public static void main(String... args){
-        
+        List<Integer> l = Arrays.asList(1,2,3,4,5,6,7,8,9,21,43,45,76,78);
+        Sample s = new Sample();
+        s.check(l, 55);
     }
 
     public void sum(List<Integer> list){
@@ -47,7 +49,11 @@ public class Sample {
 
     public void check(List<Integer> list, int key){
         list.stream().anyMatch(i -> i==key);
-        list.stream().filter(i -> i==key).findFirst().isPresent();
-        list.stream().anyMatch(i -> i==key);
+        print(list.stream().filter(i -> i==key).findFirst().isPresent());
+        print(list.stream().anyMatch(i -> i==key));
+    }
+
+    public void evens(List<Integer> list){
+        print(list.stream().filter(i -> i%2==0).map(String::valueOf).collect(Collectors.joining(",")));
     }
 }
