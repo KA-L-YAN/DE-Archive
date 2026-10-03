@@ -10,10 +10,11 @@ public class Sample {
 
     public static void main(String... args){
         List<Integer> l = Arrays.asList(1,2,3,4,5,6,7,8,9,21,43,45,76,78);
-        List<String> s = Arrays.asList("pavan", "kalyan","Aruna","Bhaskar","java");
+        List<String> str = Arrays.asList("pavan", "kalyan","Aruna","Bhaskar","java");
         Sample s = new Sample();
         // s.check(l, 55);
-        s.evens(l);
+        s.evens(Arrays.asList(1,1,1,1,1,1));
+
     }
 
     public void sum(List<Integer> list){
@@ -58,7 +59,12 @@ public class Sample {
     public void evens(List<Integer> list){
         print(list.stream().filter(i -> i%2==0).map(String::valueOf).collect(Collectors.joining(",")));
         Map<Boolean, List<Integer>> checkers = list.stream().collect(Collectors.partitioningBy(i -> i%2==0));
-        Optional<Integer> even = checkers.getOrDefault(true,null);
-        Optional<Integer> odd = checkers.getOrDefault(false,null);
+        List<Integer> even = checkers.get(true);
+        List<Integer> odd = checkers.get(false);
+        print(even+"+"+odd);
+    }
+
+    public void upperCase(List<String> string){
+        string.stream().map(String::toUpperCase).collect(Collectors.joining(":"));
     }
 }
