@@ -9,7 +9,7 @@ public class Sample {
     }
 
     public static void main(String... args){
-
+        
     }
 
     public void sum(List<Integer> list){
@@ -43,5 +43,11 @@ public class Sample {
 
     public void count(List<Integer> list){
         list.stream().count();
+    }
+
+    public void check(List<Integer> list, int key){
+        list.stream().anyMatch(i -> i==key);
+        list.stream().filter(i -> i==key).findFirst().isPresent();
+        list.stream().anyMatch(i -> i==key);
     }
 }
