@@ -13,6 +13,7 @@ public class Sample {
     public void sum(List<Integer> list){
         list.stream().mapToInt(Integer::intValue).sum();
         list.stream().mapToInt(i -> i.intValue()).sum();
+        list.stream().reduce(0,Integer::intValue);
     }
 
 }
