@@ -41,12 +41,21 @@ public class Sample {
         list.stream().mapToInt(Integer::intValue).max();
         list.stream().max(Integer::compare).orElse(0);
         list.stream().max(Integer::compareTo).orElse(0);
+        list.stream().sorted(Comparator.reverseOrder()).findFirst().orElse(0);
+        list.stream().sorted().reduce((i,j) -> j).orElse(0);
+        // without using min(), max(), sorted...
+        list.stream().reduce((a,b) -> a > b ? a : b);
+
     }
 
     public void min(List<Integer> list){
         list.stream().min(Integer::compareTo).get();
         list.stream().min(Integer::compare).get();
         list.stream().mapToInt(Integer::intValue).min();
+        list.stream().sorted().findFirst().orElse(0);
+        list.stream().sorted().reduce((i,j) -> i).orElse(0);
+        // without using min(), max(), sorted...
+        list.stream().reduce((a,b) -> a < b ? a : b);
     }
 
     public void count(List<Integer> list){
@@ -116,9 +125,12 @@ public class Sample {
         IntStream.range(1, n).reduce(1, (a,b) -> a*b);
     }
 
-    public void secondLarget(List<Integer> list) {
-        list.stream().sorted().reduce((a,b) -> a).orElse(0);
+    public void secondLargest(List<Integer> list) {
         list.stream().sorted(Comparator.reverseOrder()).skip(1).findFirst().orElse(999);
+    }
+
+    public void secondSmallest(List<Integer> list) {
+        list.stream().sorted().skip(1).findFirst().orElse(0);
     }
 
 }
