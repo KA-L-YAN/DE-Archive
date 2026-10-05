@@ -67,6 +67,23 @@ public class Sample {
     public void upperCase(List<String> string){
         string.stream().map(String::toUpperCase).collect(Collectors.joining(":"));
         string.stream().map(String::toLowerCase).collect(Collectors.toList());
-        
     }
+
+    public void squares(List<Integer> list){
+        list.stream().map(i->i*i).collect(Collectors.toList());
+    }
+
+    public void findFirstt(List<Integer> list){
+        list.stream().findFirst().orElse(0);
+    }
+
+    public void findLast(List<Integer> list) {
+        list.stream().reduce((i,j) -> j).orElse(0);
+    }
+
+    public void checkAll(List<Integer> list) {
+        list.stream().
+    }
+
+
 }
