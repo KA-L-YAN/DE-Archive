@@ -82,8 +82,22 @@ public class Sample {
     }
 
     public void checkAll(List<Integer> list) {
-        list.stream().
+        list.stream().allMatch(n -> n%2==0);
+        list.stream().anyMatch(n-> n%2==0);
     }
+
+    public void removeDups(List<Integer> list){
+        Set<Integer> unq = list.stream().distinct().collect(Collectors.toSet());
+    }
+
+    public void sortt(List<Integer> list){
+        list.stream().mapToInt(Integer::intValue).sorted();   // Cant sort a intStream in reverse order. Change it Integer Stream and then sort it in desc...
+        list.stream().sorted().collect(Collectors.toList());
+        list.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
+    }
+    
+
+    
 
 
 }
