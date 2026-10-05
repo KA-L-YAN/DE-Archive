@@ -95,9 +95,16 @@ public class Sample {
         list.stream().sorted().collect(Collectors.toList());
         list.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
     }
-    
 
-    
+    public void sortStrings(List<String> str){
+        str.stream().sorted().collect(Collectors.toList());
 
+        str.stream().sorted(Comparator.comparingInt(i -> i.length())).collect(Collectors.toList());
+        str.stream().sorted(Comparator.comparingInt(String::length)).collect(Collectors.joining("-"));
+    }
+    
+    public void findSumOfDigits(int n){
+        String.valueOf(n).stream().mapT
+    }
 
 }
