@@ -1,6 +1,7 @@
 import java.util.*;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class Sample {
 
@@ -16,6 +17,8 @@ public class Sample {
         s.evens(Arrays.asList(1,1,1,1,1,1));
 
     }
+
+    // Easy Problems
 
     public void sum(List<Integer> list){
         list.stream().mapToInt(Integer::intValue).sum();
@@ -103,8 +106,19 @@ public class Sample {
         str.stream().sorted(Comparator.comparingInt(String::length)).collect(Collectors.joining("-"));
     }
     
+    // Intermediate Problems
+
     public void findSumOfDigits(int n){
-        String.valueOf(n).stream().mapT
+        String.valueOf(n).chars().map(Character::getNumericValue).sum();
+    }
+
+    public void factorial(int n) {
+        IntStream.range(1, n).reduce(1, (a,b) -> a*b);
+    }
+
+    public void secondLarget(List<Integer> list) {
+        list.stream().sorted().reduce((a,b) -> a).orElse(0);
+        list.stream().sorted(Comparator.reverseOrder()).skip(1).findFirst().orElse(999);
     }
 
 }
