@@ -66,5 +66,6 @@ public class Sample {
 
     public void upperCase(List<String> string){
         string.stream().map(String::toUpperCase).collect(Collectors.joining(":"));
+        string.stream().
     }
 }
