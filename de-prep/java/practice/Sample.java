@@ -26,8 +26,8 @@ import java.util.stream.IntStream;
                 new Student(1007,"Scala rao",49.87f)
             );
         Sample s = new Sample();
-        // s.check(l, 55);
-        s.longestString(str);
+
+        s.compareMarks(students);
 
     }
 
@@ -157,7 +157,13 @@ import java.util.stream.IntStream;
         Map<Integer, List<String>> map = str.stream().collect(Collectors.groupingBy(String::length));
     }
 
-    Comparator<Student> comparator = (s1,s2) -> Float.compare(s1.marks(),s2.marks());
+
+    public void compareMarks(List<Student> students) {
+        Comparator<Student> comparator = (s1,s2) -> Float.compare(s1.marks(),s2.marks());
+        students.sort(comparator);
+        // print(students);
+        students.stream().sorted(Comparator.comparingDouble(Student::marks)).forEach(System.out::println);
+    }
 
 
 }
