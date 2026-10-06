@@ -27,7 +27,7 @@ import java.util.stream.IntStream;
             );
         Sample s = new Sample();
 
-        s.compareMarks(students);
+        s.groupByAge(students);
 
     }
 
@@ -164,6 +164,11 @@ import java.util.stream.IntStream;
         students.sort(Comparator.comparingDouble(Student::marks).reversed());
         print(students);
         students.stream().sorted(Comparator.comparingDouble(Student::marks).reversed()).forEach(System.out::println);
+    }
+
+    public void groupByAge(List<Student> students){
+        Map<Integer, List<Student>> map = students.stream().collect(Collectors.groupingBy(Student::age, Collectors.mapping(Student::name),));
+        print(map);
     }
 
 
