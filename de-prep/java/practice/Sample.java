@@ -14,7 +14,7 @@ public class Sample {
         List<String> str = Arrays.asList("pavan", "kalyan","Aruna","Bhaskar","java");
         Sample s = new Sample();
         // s.check(l, 55);
-        s.evens(Arrays.asList(1,1,1,1,1,1));
+        s.longestString(str);
 
     }
 
@@ -131,6 +131,11 @@ public class Sample {
 
     public void secondSmallest(List<Integer> list) {
         list.stream().sorted().skip(1).findFirst().orElse(0);
+    }
+
+    public void longestString(List<String> str){
+        print(str.stream().max(Comparator.comparing(String::length)).orElse(null));
+        print(str.stream().min(Comparator.comparing(String::length)).orElse(null));
     }
 
 }
