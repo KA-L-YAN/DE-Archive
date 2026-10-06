@@ -145,3 +145,5 @@ public class Sample {
     }
 
 }
+
+public record Student(long rollNum, String name, float marks);
