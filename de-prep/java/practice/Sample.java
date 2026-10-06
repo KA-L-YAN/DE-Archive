@@ -134,8 +134,14 @@ public class Sample {
     }
 
     public void longestString(List<String> str){
-        print(str.stream().max(Comparator.comparing(String::length)).orElse(null));
-        print(str.stream().min(Comparator.comparing(String::length)).orElse(null));
+        print(str.stream().max(Comparator.comparing(String::length)).orElse(null)); // slower
+        print(str.stream().min(Comparator.comparing(String::length)).orElse(null)); // slower
+        str.stream().max(Comparator.comparingInt(String::length)).orElse(null); //faster
+        str.stream().min(Comparator.comparingInt(String::length)).orElse(null); //faster
+    }
+
+    public void stringGrouping(List<String> str){
+        Map<Integer, List<String>> map = str.stream().collect(Collectors.groupingBy(String::length));
     }
 
 }
