@@ -4,7 +4,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 
-    record Student(long rollNum, String name, float marks){
+    record Student(long rollNum, String name, int age, float marks){
     }
 
     public class Sample{
@@ -17,13 +17,13 @@ import java.util.stream.IntStream;
             List<Integer> l = Arrays.asList(1,2,3,4,5,6,7,8,9,21,43,45,76,78);
             List<String> str = Arrays.asList("pavan", "kalyan","Aruna","Bhaskar","java");
             List<Student> students = Arrays.asList(
-                new Student(1001,"Pavan",99.87f),
-                new Student(1002,"kalyan",100f),
-                new Student(1003,"bhaskar",94.87f),
-                new Student(1004,"aruna",79.87f),
-                new Student(1005,"Java babu",39.87f),
-                new Student(1006,"Pythoni",69.87f),
-                new Student(1007,"Scala rao",49.87f)
+                new Student(1001,"Pavan", 21,99.87f),
+                new Student(1002,"kalyan", 21,100f),
+                new Student(1003,"bhaskar", 21,94.87f),
+                new Student(1004,"aruna", 21,79.87f),
+                new Student(1005,"Java babu", 31,39.87f),
+                new Student(1006,"Pythoni", 43,69.87f),
+                new Student(1007,"Scala rao", 43,49.87f)
             );
         Sample s = new Sample();
 
@@ -160,9 +160,10 @@ import java.util.stream.IntStream;
 
     public void compareMarks(List<Student> students) {
         Comparator<Student> comparator = (s1,s2) -> Float.compare(s1.marks(),s2.marks());
-        students.sort(comparator);
-        // print(students);
-        students.stream().sorted(Comparator.comparingDouble(Student::marks)).forEach(System.out::println);
+        students.sort(comparator.reversed());
+        students.sort(Comparator.comparingDouble(Student::marks).reversed());
+        print(students);
+        students.stream().sorted(Comparator.comparingDouble(Student::marks).reversed()).forEach(System.out::println);
     }
 
 
