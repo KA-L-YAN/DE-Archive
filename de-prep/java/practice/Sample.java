@@ -173,7 +173,10 @@ import java.util.stream.IntStream;
             Collectors.mapping(Student::name, Collectors.toList())
         ));
 
-        Map<String, Integer> results = students.stream().collect(Collectors.groupingBy(Students::marks))
+        Map<String, Long> results = students.stream().collect(Collectors.groupingBy(s -> s.marks() > 40.0f ? "Pass" : "Fail",Collectors.counting()));
+
+        print("Grouped By Age : " + map);
+        print("Results : " + results);
     }
 
 
