@@ -14,7 +14,7 @@ import java.util.stream.IntStream;
         }
 
         public static void main(String... args){
-            List<Integer> l = Arrays.asList(1,2,3,4,5,6,7,8,9,21,43,45,76,78);
+            List<Integer> list = Arrays.asList(1,2,3,4,5,6,7,8,9,21,43,45,76,78);
             List<String> str = Arrays.asList("pavan", "kalyan","Aruna","Bhaskar","java");
             List<Student> students = Arrays.asList(
                 new Student(1001,"Pavan", 21,99.87f),
@@ -27,7 +27,7 @@ import java.util.stream.IntStream;
             );
         Sample s = new Sample();
 
-        s.groupByAge(students);
+        s.partitionEven(list);
 
     }
 
@@ -173,10 +173,16 @@ import java.util.stream.IntStream;
             Collectors.mapping(Student::name, Collectors.toList())
         ));
 
-        Map<String, Long> results = students.stream().collect(Collectors.groupingBy(s -> s.marks() > 40.0f ? "Pass" : "Fail",Collectors.counting()));
-
+        Map<String, Long> results = students.stream()
+        .collect(Collectors.groupingBy(s -> s.marks() > 40.0f ? "Pass" : "Fail",
+                Collectors.counting()));
         print("Grouped By Age : " + map);
         print("Results : " + results);
+    }
+
+    public void partitionEven(List<Integer> list){
+        Map<String,List<Integer>> partitions = list.stream().collect(Collectors.groupingBy(i -> i%2 == 0 ? "Even" : "Odd"));
+        print(partitions);
     }
 
 
