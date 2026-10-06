@@ -2,6 +2,7 @@ import java.util.*;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 
     record Student(long rollNum, String name, int age, float marks){
@@ -186,7 +187,8 @@ import java.util.stream.IntStream;
     }
 
     public void mergeList(List<Integer> list){
-        List<Integer> merged = Stream.of(list, List.of(1,2,3,4)).flatMap(List::Stream)
+        List<Integer> merged = Stream.of(list, Arrays.asList(1,2,3,4)).flatMap(List::stream).collect(Collectors.toList());
+        Stream.concat(list.stream(), List.of(1,2,3,4).stream()).collect(Collectors.toList());
     }
 
 
