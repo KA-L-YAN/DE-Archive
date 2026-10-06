@@ -3,15 +3,19 @@ import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class Sample {
 
-    public static <T> void print(T t){
-        System.out.println(t);
-    }
+    record Student(long rollNum, String name, float marks){}
 
-    public static void main(String... args){
-        List<Integer> l = Arrays.asList(1,2,3,4,5,6,7,8,9,21,43,45,76,78);
-        List<String> str = Arrays.asList("pavan", "kalyan","Aruna","Bhaskar","java");
+    public class Sample{
+
+        public static <T> void print(T t){
+            System.out.println(t);
+        }
+
+        public static void main(String... args){
+            List<Integer> l = Arrays.asList(1,2,3,4,5,6,7,8,9,21,43,45,76,78);
+            List<String> str = Arrays.asList("pavan", "kalyan","Aruna","Bhaskar","java");
+            Student stu1 = new Student(1001, "Pavan", 99.87f);
         Sample s = new Sample();
         // s.check(l, 55);
         s.longestString(str);
@@ -146,4 +150,3 @@ public class Sample {
 
 }
 
-public record Student(long rollNum, String name, float marks);
