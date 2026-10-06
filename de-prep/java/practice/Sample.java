@@ -167,8 +167,13 @@ import java.util.stream.IntStream;
     }
 
     public void groupByAge(List<Student> students){
-        Map<Integer, List<Student>> map = students.stream().collect(Collectors.groupingBy(Student::age, Collectors.mapping(Student::name),));
-        print(map);
+        Map<Integer, List<String>> map = students.stream()
+        .collect(Collectors.groupingBy(
+            Student::age, 
+            Collectors.mapping(Student::name, Collectors.toList())
+        ));
+
+        Map<String, Integer> results = students.stream().collect(Collectors.groupingBy(Students::marks))
     }
 
 
