@@ -15,7 +15,15 @@ import java.util.stream.IntStream;
         public static void main(String... args){
             List<Integer> l = Arrays.asList(1,2,3,4,5,6,7,8,9,21,43,45,76,78);
             List<String> str = Arrays.asList("pavan", "kalyan","Aruna","Bhaskar","java");
-            Student stu1 = new Student(1001, "Pavan", 99.87f);
+            List<Student> students = Arrays.asList(
+                new Student(1001,"Pavan",99.87f),
+                new Student(1002,"kalyan",100f),
+                new Student(1003,"bhaskar",94.87f),
+                new Student(1004,"aruna",79.87f),
+                new Student(1005,"Java babu",39.87f),
+                new Student(1006,"Pythoni",69.87f),
+                new Student(1007,"Scala rao",49.87f)
+            );
         Sample s = new Sample();
         // s.check(l, 55);
         s.longestString(str);
@@ -146,6 +154,11 @@ import java.util.stream.IntStream;
 
     public void stringGrouping(List<String> str){
         Map<Integer, List<String>> map = str.stream().collect(Collectors.groupingBy(String::length));
+    }
+
+    @Override 
+    public static void Comparator(){
+            
     }
 
 }
