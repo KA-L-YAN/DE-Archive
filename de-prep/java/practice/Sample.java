@@ -182,9 +182,12 @@ import java.util.stream.IntStream;
 
     public void partitionEven(List<Integer> list){
         Map<String,List<Integer>> partitions = list.stream().collect(Collectors.groupingBy(i -> i%2 == 0 ? "Even" : "Odd"));
-        print(partitions);
+        Map<Boolean, List<Integer>> partitionby = list.stream().collect(Collectors.partitioningBy(i -> i%2==0));
+    }
+
+    public void mergeList(List<Integer> list){
+        List<Integer> merged = Stream.of(list, List.of(1,2,3,4)).flatMap(List::Stream)
     }
 
 
 }
-
