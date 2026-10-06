@@ -4,7 +4,8 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 
-    record Student(long rollNum, String name, float marks){}
+    record Student(long rollNum, String name, float marks){
+    }
 
     public class Sample{
 
@@ -156,10 +157,8 @@ import java.util.stream.IntStream;
         Map<Integer, List<String>> map = str.stream().collect(Collectors.groupingBy(String::length));
     }
 
-    @Override 
-    public static void Comparator(){
-            
-    }
+    Comparator<Student> comparator = (s1,s2) -> Float.compare(s1.marks(),s2.marks());
+
 
 }
 
