@@ -207,7 +207,10 @@ import java.util.stream.Stream;
     public void difference(List<Integer> list){
         //unique elements from each list
         List<Integer> list2 = Arrays.asList(1,2,3,4,5,6,6,7);
-        list.
+        list.stream().filter(n -> !list2.contains(n)).collect(Collectors.toList()); //List1 - List2
+        list2.stream().filter(i -> !list.contains(i)).collect(Collectors.toList()); //list2 - list1
     }
+
+    
 
 }
