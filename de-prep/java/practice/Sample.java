@@ -27,8 +27,7 @@ import java.util.stream.Stream;
                 new Student(1007,"Scala rao", 43,49.87f)
             );
         Sample s = new Sample();
-
-        s.partitionEven(list);
+        s.countVowels("Hey there, I'm Pavan Kalyan");
 
     }
 
@@ -228,7 +227,9 @@ import java.util.stream.Stream;
     }
 
     public void countVowels(String s){
-        Arrays.stream(s.split("")).collect(Collectors.groupingBy(c -> c.))
+        List<Character> list = Arrays.asList('a','e','i','o','u');
+        Map<Character,Long> countMapp = s.toLowerCase().chars().mapToObj(c-> (char) c).filter(c -> list.contains(c)).collect(Collectors.groupingBy(c->c, Collectors.counting()));
+        print(countMapp);
     }
 
 }
