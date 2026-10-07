@@ -191,5 +191,14 @@ import java.util.stream.Stream;
         Stream.concat(list.stream(), List.of(1,2,3,4).stream()).collect(Collectors.toList());
     }
 
+    public void intersection(List<Integer> list) {
+        // intersection - common elements in both the lists..
+        List<Integer> list2 = Arrays.asList(2,3,4,5,65,7,7);
+        list.stream().filter(list2::contains).collect(Collectors.toList());
+    }
+
+    public void union(List<Integer> list){
+        
+    }
 
 }
