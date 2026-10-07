@@ -198,7 +198,16 @@ import java.util.stream.Stream;
     }
 
     public void union(List<Integer> list){
-        
+        //common - uncommon everything
+        List<Integer> list2 = Arrays.asList(1,2,3,4,5,6,7,8);
+        Stream.of(list,list2).flatMap(List::stream).distinct().collect(Collectors.toList());
+        Stream.concat(list.stream(), list2.stream()).distinct().collect(Collectors.toList());
+    }
+
+    public void difference(List<Integer> list){
+        //unique elements from each list
+        List<Integer> list2 = Arrays.asList(1,2,3,4,5,6,6,7);
+        list.
     }
 
 }
