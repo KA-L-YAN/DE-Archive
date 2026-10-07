@@ -229,10 +229,18 @@ import java.util.stream.Stream;
     public void countVowels(String s){
         List<Character> list = Arrays.asList('a','e','i','o','u');
         Map<Character,Long> countMapp = s.toLowerCase().chars().mapToObj(c-> (char) c).filter(c -> list.contains(c)).collect(Collectors.groupingBy(c->c, Collectors.counting()));
-Map<Character, Integer> map = s.toLowerCase().chars().mapToObj(c -> (char) c).filter(i -> "aeiou".contains(String.valueOf(i))).collect(Collectors.groupingBy(s->s,
+        Map<Character, Long> map = s.toLowerCase().chars().mapToObj(c -> (char) c).filter(i -> "aeiou".contains(String.valueOf(i))).collect(Collectors.groupingBy(s->s,
                          Collectors.counting()
-                            ))
+                            ));
         
+    }
+
+    public void countDigits(String s){
+        s.chars().mapToObj(c -> (char) c).filter(Character::isDigit).collect(Collectors.groupingBy(c->c, Collectors.counting()));
+    }
+
+    public void reverseList(List<Integer> list){
+        list.stream().
     }
 
 }
