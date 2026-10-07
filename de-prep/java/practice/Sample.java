@@ -1,8 +1,5 @@
 import java.util.*;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
+import java.util.stream.*;
 
 
     record Student(long rollNum, String name, int age, float marks){
@@ -62,8 +59,8 @@ import java.util.stream.Stream;
     }
 
     public void min(List<Integer> list){
-        list.stream().min(Integer::compareTo).get();
-        list.stream().min(Integer::compare).get();
+        list.stream().min(Integer::compareTo).orElse(0);
+        list.stream().min(Integer::compare).orElse(0);
         list.stream().mapToInt(Integer::intValue).min();
         list.stream().sorted().findFirst().orElse(0);
         list.stream().sorted().reduce((i,j) -> i).orElse(0);
@@ -135,11 +132,11 @@ import java.util.stream.Stream;
     }
 
     public void factorial(int n) {
-        IntStream.range(1, n).reduce(1, (a,b) -> a*b);
+        LongStream.rangeClosed(1, n).reduce(1, (a,b) -> a*b);
     }
 
     public void secondLargest(List<Integer> list) {
-        list.stream().sorted(Comparator.reverseOrder()).skip(1).findFirst().orElse(999);
+        list.stream().sorted(Comparator.reverseOrder()).distinct().skip(1).findFirst().orElse(999);
     }
 
     public void secondSmallest(List<Integer> list) {
@@ -229,7 +226,7 @@ import java.util.stream.Stream;
     public void countVowels(String s){
         List<Character> list = Arrays.asList('a','e','i','o','u');
         Map<Character,Long> countMapp = s.toLowerCase().chars().mapToObj(c-> (char) c).filter(c -> list.contains(c)).collect(Collectors.groupingBy(c->c, Collectors.counting()));
-        Map<Character, Long> map = s.toLowerCase().chars().mapToObj(c -> (char) c).filter(i -> "aeiou".contains(String.valueOf(i))).collect(Collectors.groupingBy(s->s,
+        Map<Character, Long> map = s.toLowerCase().chars().mapToObj(c -> (char) c).filter(i -> "aeiou".contains(String.valueOf(i))).collect(Collectors.groupingBy(x->x,
                          Collectors.counting()
                             ));
         
