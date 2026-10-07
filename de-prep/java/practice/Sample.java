@@ -211,6 +211,14 @@ import java.util.stream.Stream;
         list2.stream().filter(i -> !list.contains(i)).collect(Collectors.toList()); //list2 - list1
     }
 
+    public void counter(List<Integer> list){
+        Map<Integer, Long> counter = list.stream().collect(Collectors.groupingBy(i->i,Collectors.counting()));
+    }
+
+    public void charCounter(String s){
+        s.chars().map(c -> (char) c).collect(Collectors.groupingBy(i->i, Collectors.counting()));
+    }
+
     
 
 }
