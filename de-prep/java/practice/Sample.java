@@ -240,7 +240,17 @@ import java.util.stream.Stream;
     }
 
     public void reverseList(List<Integer> list){
-        list.stream().
+        list.stream().collect(Collectors.collectingAndThen(Collectors.toList(), 
+            x -> {Collections.reverse(x);
+                return x;
+            }));
     }
+
+    public void reverseString(String s){
+        s.chars().mapToObj(c -> String.valueOf((char) c)).reduce("",(a,b)-> b+a);
+    }
+
+
+    // Advanced Problems
 
 }
