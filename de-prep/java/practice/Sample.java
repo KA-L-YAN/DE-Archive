@@ -216,9 +216,19 @@ import java.util.stream.Stream;
     }
 
     public void charCounter(String s){
-        s.chars().map(c -> (char) c).collect(Collectors.groupingBy(i->i, Collectors.counting()));
+        //chars() gives an IntStream. Why? cuz it returns ascii values of each character in a string and makes a stream of ints...
+        s.chars().mapToObj(c -> (char) c).collect(Collectors.groupingBy(i->i, Collectors.counting()));
     }
 
-    
+    public void wordCounter(List<String> str){
+        str.stream().collect(Collectors.groupingBy(i->i, Collectors.counting()));
+
+        String s = "I gotta get into a project. Now or never. I gotta get into it no matter what...";
+        Arrays.stream(s.split(" ")).collect(Collectors.groupingBy(i->i,Collectors.counting()));
+    }
+
+    public void countVowels(String s){
+        Arrays.stream(s.split("")).collect(Collectors.groupingBy(c -> c.))
+    }
 
 }
