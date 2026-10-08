@@ -24,7 +24,7 @@ import java.util.stream.*;
                 new Student(1007,"Scala rao", 43,49.87f)
             );
         Sample s = new Sample();
-        s.countVowels("Hey there, I'm Pavan Kalyan");
+        s.sumCheck(list);
 
     }
 
@@ -251,7 +251,9 @@ import java.util.stream.*;
     // Advanced Problems
     public void sumCheck(List<Integer> list){
         IntStream.range(0, list.size()).forEach(
-            i -> IntStream.range(i+1, list.size()).filter(j -> list(i)+list(j) == 5)
+            i -> IntStream.range(i+1, list.size())
+            .filter(j -> list.get(i)+list.get(j) == 5)
+            // .forEach(j -> System.out.println(list.get(i) + " " + list.get(j)))
         );
     }
 
