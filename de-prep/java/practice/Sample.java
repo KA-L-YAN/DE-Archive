@@ -249,6 +249,8 @@ import java.util.stream.*;
 
 
     // Advanced Problems
-    public void sumCheck(List<Integer> list)
+    public void sumCheck(List<Integer> list){
+        list.stream().mapToInt(Integer::intValue).filter()
+    }
 
 }
