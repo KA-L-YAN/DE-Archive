@@ -12,7 +12,7 @@ import java.util.stream.*;
         }
 
         public static void main(String... args){
-            List<Integer> list = Arrays.asList(1,2,3,4,5,6,7,8,9,21,43,45,76,78);
+            List<Integer> list = Arrays.asList(0,1,2,3,4,5,6,7,8,9,21,43,45,76,78);
             List<String> str = Arrays.asList("pavan", "kalyan","Aruna","Bhaskar","java");
             List<Student> students = Arrays.asList(
                 new Student(1001,"Pavan", 21,99.87f),
@@ -249,5 +249,6 @@ import java.util.stream.*;
 
 
     // Advanced Problems
+    public void sumCheck(List<Integer> list)
 
 }
