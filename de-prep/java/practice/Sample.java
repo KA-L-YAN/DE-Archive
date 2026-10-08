@@ -250,7 +250,8 @@ import java.util.stream.*;
 
     // Advanced Problems
     public void sumCheck(List<Integer> list){
-        list.stream().mapToInt(Integer::intValue).filter()
+        Map<Integer, List<Integers> = 
+        list.stream().collect(Collectors.groupingBy( (a,b) -> a+b = 5 ? , null, null))
     }
 
 }
