@@ -253,7 +253,7 @@ import java.util.stream.*;
         IntStream.range(0, list.size()).forEach(
             i -> IntStream.range(i+1, list.size())
             .filter(j -> list.get(i)+list.get(j) == 5)
-            // .forEach(j -> System.out.println(list.get(i) + " " + list.get(j)))
+            .forEach(j -> System.out.println(list.get(i) + " " + list.get(j)))
         );
     }
 
