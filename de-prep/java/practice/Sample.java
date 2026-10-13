@@ -24,7 +24,7 @@ import java.util.stream.*;
                 new Student(1007,"Scala rao", 43,49.87f)
             );
         Sample s = new Sample();
-        s.sumCheck(list);
+        s.sample(list, 5);
 
     }
 
@@ -257,18 +257,18 @@ import java.util.stream.*;
         );
     }
 
-    public void sumCheck2(List<Integer> list, int sum){
-        IntStream.range(0,list.size()).forEach(
-            i -> IntStream
-        );
-    }
+    // public void sumCheck2(List<Integer> list, int sum){
+    //     IntStream.range(0,list.size()).forEach(
+    //         i -> IntStream
+    //     );
+    // }
 
     public void sample(List<Integer> list, int sum){
         for(Integer i : list){
             int now = i.intValue();
             int result = sum - i;
             if(list.contains(Integer.valueOf(result))){
-                
+                print(now + " "+ result);
             }
         }
     }
