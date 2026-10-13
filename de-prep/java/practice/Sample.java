@@ -249,10 +249,10 @@ import java.util.stream.*;
 
 
     // Advanced Problems
-    public void sumCheck(List<Integer> list){
+    public void sumCheck(List<Integer> list, int sum){
         IntStream.range(0, list.size()).forEach(
             i -> IntStream.range(i+1, list.size())
-            .filter(j -> list.get(i)+list.get(j) == 5)
+            .filter(j -> list.get(i)+list.get(j) == sum)
             .forEach(j -> System.out.println(list.get(i) + " " + list.get(j)))
         );
     }
