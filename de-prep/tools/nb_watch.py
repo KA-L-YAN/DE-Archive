@@ -21,7 +21,8 @@ RECENT = 3600   # how long a triggered cell stays eligible for re-check
 CLAUDE = str(Path.home() / ".local/bin/claude")
 
 PROMPT = """The notebook {nb} has new or changed code cell(s): {ids} (the code may have been half-typed earlier; judge it as it is now).
-For each new code cell: if it has no markdown cell directly above it, add one; otherwise fact-check the existing one.
+For each of those cells, AND ALSO for the code cell directly above it (the previous problem, which the owner has probably just finished):
+if it has no markdown cell above it, add one; otherwise fact-check the existing one against the code as it is NOW and rewrite it if stale or wrong.
 Style: review-sheet. A "### Title", one bold takeaway, a few short bullets, and a warning line for any bug. No long prose.
 Fact-check against the cell's code, its saved output and Python 3.12 semantics.
 Rules: edit ONLY markdown cells (insert/modify), never code cells, outputs or metadata. Do not run the notebook or use git.
