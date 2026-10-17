@@ -1,0 +1,172 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\setlength{\footskip}{3.60004pt}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+\titleformat{\section}{\vspace{-8pt}\scshape\raggedright\large\bfseries}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{#1 \vspace{-1pt}}}
+
+
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\hypersetup{
+    hidelinks
+}
+
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+ \textbf{{\LARGE Pavan Kalyan Budamacharla}}
+ \vspace{0.5em}
+ \\
+ \vspace{0.5em} Email: \href{mailto:pk591947@gmail.com} {pk591947@gmail.com} &
+ \hspace{0.1em}\href{https://www.linkedin.com/in/pavan-kalyan-budamacharla-5a07451ba/}{LinkedIn:~~linkedin.com/in/pavan-kalyan-budamacharla} \\
+  \vspace{0.5em}\href{https://github.com/KA-L-YAN}{Github: github.com/KA-L-YAN} &
+  \hspace{0.1em} \href{https://pavankalyan.is-a.dev}{Portfolio: pavankalyan.is-a.dev} \\
+  \href{}{Location: Hyderabad, India } &
+  \hspace{0.1em} \href{}{Mobile: +91 9100447112}
+\end{tabular*}
+
+\vspace{0.5em}
+\section{Professional Summary}
+\vspace{0.5em}
+Data Engineer with experience designing, developing, and supporting enterprise data integration pipelines across cloud and on-premise environments. Skilled in ETL/ELT development, SQL optimization, Python-based data processing, and AWS data services including S3, Glue, SQS, DynamoDB, EC2, and CloudWatch. Experienced in building reliable data movement solutions across databases, APIs, SFTP servers, and cloud storage while ensuring data quality, operational stability, and performance optimization.
+%----------Tech Stack------------
+\section{Technical Skills}
+\begin{description}[style=multiline, leftmargin=1.2in, font=\bfseries]
+    \item[Languages] Java, Scala, Python, SQL
+    \item[Backend] ETL/ELT Concepts, Batch Processing, Data Integrations, Spring Boot
+    \item[Tools] Git, Docker, Linux, PostgreSQL, IntelliJ
+    \item[Cloud] AWS S3, AWS Glue, CloudWacth, Grafana, Kibana, DynamoDB, AWS EventBridge
+
+\end{description}
+
+%-----------Work Experience-----------------
+\section{Work Experience}
+\begin{itemize}[leftmargin=*]
+    \resumeSubheading{Tech Mahindra}{Hyderabad, India}{Associate Software Engineer (Data Engineering \& Integrations)}{Sep 2024 -- Present}
+    \begin{itemize}[leftmargin=1.5em]
+        \resumeItem{Built and maintained ETL/data-processing jobs in Python for AWS Glue and integration workflows in Scala, covering various
+        source-target patterns.}
+        \resumeItem {Worked across AWS services like S3, DynamoDB, Glue, and EventBridge to build and orchestrate reliable data pipelines.}
+        \resumeItem{Optimised two critical data processing jobs that previously exceeded 175-minute runtimes, reducing execution time to under 15 minutes which is a 90\% improvement by refactoring pipeline logic.}
+        \resumeItem{Owned production support including log analysis via Kibana, monitoring via CloudWatch / Grafana to troubleshoot issues and maintain pipeline reliability.}
+    \end{itemize}
+
+    \resumeSubheading{Blackbuck Engineers Pvt Ltd.}{Remote}{Project Intern (Machine Learning)}{Jun 2023 -- Sep 2023}
+    \begin{itemize}[leftmargin=1.5em]
+        \resumeItem{Implemented preprocessing scripts in Python to handle large datasets for supervised and unsupervised learning models.}
+        \resumeItem{Analyzed model performance metrics to align technical outputs with specific industry business requirements.}
+    \end{itemize}
+\end{itemize}
+
+%----------EDUCATION----------
+\section{Education}
+\begin{itemize}[leftmargin=*]
+    \resumeSubheading{NRI Institute of Technology}{Vijayawada, India}{B.Tech in Computer Science and Engineering (Data Science) -- CGPA: 8.85}{2021 -- 2024}
+    \resumeSubheading{Indian Institute of Technology, Kanpur}{Kanpur, India}{Non-Degree Students Programme (Large Data Analysis \& ML)}{2023}
+\end{itemize}
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Deep Learning Bird Identification} $|$ \textit{Python, CNN, Keras}
+    \begin{itemize}[leftmargin=1.5em]
+        \resumeItem{Trained a CNN model to 94\% accuracy for wildlife monitoring; published research article in \textbf{IJRAR}.}
+    \end{itemize}
+    \item \textbf{Vehicle Service Management System} $|$ \textit{Java, Spring Boot, MySQL}
+    \begin{itemize}[leftmargin=1.5em]
+        \resumeItem{Built a role-based Vehicle Service Management backend using Java and Spring Boot, supporting two user roles (Customer and Manager) with distinct access control via Spring Security.}
+        % \resumeItem{Designed and exposed RESTful APIs for service booking, record management, and status tracking, backed by a relational MySQL schema with normalised entity relationships.}
+        \resumeItem{Implemented layered architecture (Controller → Service → Repository) following Spring Boot best practices, with global exception handling and input validation.}
+    \end{itemize}
+
+\end{itemize}
+%-----------Awards-----------------
+\section{Certifications and Achievements}
+\begin{description}[font=$\bullet$]
+%\item {Certified in Microsoft Azure Funadamentals (Az - 900).}
+%\vspace{-5pt}
+%\item {Certified in Microsoft Data Engineer (Az - 900).}
+%\vspace{-5pt}
+
+\item \href{https://www.credly.com/badges/3d70fadc-f715-4d1e-9e05-8dc33add228d/public_url}{Microsoft Certified: Azure Fundamentals (AZ-900) - 2025}
+
+\vspace{-5pt}
+\item \href{https://www.credly.com/badges/9f9ac523-007d-4aa2-86b6-7b15201c7d10/public_url}{IBM Badge on Python for Data Science - 2025}
+\vspace{-5pt}
+
+\item \href{https://learn.microsoft.com/api/credentials/share/en-us/PavanKalyanBudamacharla-1670/B4B46D14B66E44F2?sharingId=BAAB68093C4388C}{Microsoft Certified: Azure AI Engineer Associate (AI-102) - 2025}
+
+\vspace{-5pt}
+\item \href{https://www.credly.com/badges/acbd5f6e-477d-4559-9a8a-0e7a99a385cf/public_url}{AWS Certified Machine Learning – Associate - 2025}
+
+\vspace{-5pt}
+
+\item \href{https://www.credly.com/badges/24c299f9-624d-4dd9-bb2b-c28fd136c05f/public_url} {Github Copilot Certification - 2025}
+\end{description}
+
+\vspace{-5pt}
+
+\end{document}
