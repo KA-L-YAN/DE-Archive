@@ -158,3 +158,7 @@ INSERT INTO order_items (order_item_id, order_id, product_id, quantity, line_amo
 -- SELECT COUNT(*) FROM customers;   -- expect 12
 -- SELECT COUNT(*) FROM orders;      -- expect 20
 -- SELECT COUNT(*) FROM order_items; -- expect 23
+
+
+
+
