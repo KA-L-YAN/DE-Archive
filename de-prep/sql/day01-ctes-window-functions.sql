@@ -1,10 +1,11 @@
 /*markdown
 # Day 1 — SQL: CTEs + window function intro
-
 **Schema (e-commerce pipeline):**
 - `orders(order_id, customer_id, order_date, amount, status)`
 - `customers(customer_id, name, signup_date, region)`
-*/  
+*/
+
+select 1;
 
 /*markdown
 ## Q1 — revenue by region, completed orders, last 30 days
@@ -58,7 +59,7 @@ select customer_id, order_id, order_date, amount from ranked where rnk =1;
 
 with ranked as (select customer_id, order_id, amount, order_date, rank() over (PARTITION BY order_id order by order_date desc)
 as rnk from orders)
-select customer_id, order_id, amount, order_date, rnk from ranked where rnk = 2;
+select customer_id, order_id, amount, order_date, rnk from ranked ;
 
 /*markdown
 ## Q6 (CTE + window) — top 2 highest-value orders per customer
@@ -73,8 +74,8 @@ select customer_id, order_id, amount from ranked where rnk = 2;
 */
 
 select * from orders limit 1;
-select * from customers limit 1;
 
+select * from customers limit 1;
 
 /*markdown
 ## Q7 — rank customers by total completed-order spend (RANK())
@@ -102,6 +103,9 @@ with cust_avg as (
 )
 select customer_id, avgamt, row_number() over ( order by avgamt desc) from cust_avg;
 
+/*markdown
+## Scratch — list all tables in schema
+*/
 
 SELECT table_name
 FROM information_schema.tables
@@ -109,12 +113,16 @@ WHERE table_schema = 'public'
   AND table_type = 'BASE TABLE'
 ORDER BY table_name;
 
+/*markdown
+## Scratch — table peeks (order_items, products)
+*/
+
 select * from order_items limit 1;
+
 select * from products limit 1;
 
 /*markdown
 #### Q8 — expected output structure
-
 Best-selling product by revenue, per category, using order_items + products.
 */
 
@@ -130,4 +138,7 @@ ranked as (
     from details
 )
 select category, product_name, total_revenue from ranked where rankk = 1 ;
+
+
+
 
