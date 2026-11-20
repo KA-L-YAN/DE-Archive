@@ -1,0 +1,7 @@
+order_id,customer_id,product_id,quantity,unit_price,order_ts,status,updated_at,channel,country
+O0299001,C00010,P0001,1,999.0,2026-02-03T10:00:00Z,PLACED,2026-02-03T10:00:00Z,web,IN
+O0299002,C00011,P0002
+
+O0299003,C00012,P0003,two,abc,not-a-date,???,,web,IN,EXTRA,COLS
+"O0299004,C00013,P0004,1,10.0,2026-02-03T11:00:00Z,PLACED
+this is not csv at all

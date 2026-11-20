@@ -1,0 +1,3002 @@
+[
+  {
+    "customer_id": "C00001",
+    "name": "Wei Patel",
+    "email": "wei.patel1@example.com",
+    "country": "IN",
+    "city": "Bengaluru",
+    "signup_date": "2023-07-18",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00002",
+    "name": "Yuki Patel",
+    "email": "yuki.patel2@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2025-01-21",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00003",
+    "name": "Aarav Iyer",
+    "email": "aarav.iyer3@example.com",
+    "country": "US",
+    "city": "Boston",
+    "signup_date": "2023-04-22",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00004",
+    "name": "Hiro Garcia",
+    "email": "hiro.garcia4@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2025-01-21",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00005",
+    "name": "Elias Singh",
+    "email": "elias.singh5@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2022-01-14",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00006",
+    "name": "Arjun Nair",
+    "email": "arjun.nair6@example.com",
+    "country": "US",
+    "city": "Austin",
+    "signup_date": "2023-11-21",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00007",
+    "name": "Priya Brown",
+    "email": "priya.brown7@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2023-12-06",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00008",
+    "name": "Mia Patel",
+    "email": "mia.patel8@example.com",
+    "country": "DE",
+    "city": "Munich",
+    "signup_date": "2022-06-11",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00009",
+    "name": "Hiro Iyer",
+    "email": "hiro.iyer9@example.com",
+    "country": "IN",
+    "city": "Bengaluru",
+    "signup_date": "2025-09-16",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00010",
+    "name": "Lucia Kumar",
+    "email": "lucia.kumar10@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2022-07-26",
+    "segment": "smb",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00011",
+    "name": "Wei Sato",
+    "email": "wei.sato11@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2022-11-30",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00012",
+    "name": "Mei Singh",
+    "email": "mei.singh12@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2025-10-31",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00013",
+    "name": "Ananya Müller",
+    "email": "ananya.müller13@example.com",
+    "country": "DE",
+    "city": "Berlin",
+    "signup_date": "2023-07-07",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00014",
+    "name": "Sneha Sato",
+    "email": "sneha.sato14@example.com",
+    "country": "IN",
+    "city": "Chennai",
+    "signup_date": "2023-10-09",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00015",
+    "name": "Vikram Rossi",
+    "email": "vikram.rossi15@example.com",
+    "country": "FI",
+    "city": "Helsinki",
+    "signup_date": "2023-10-07",
+    "segment": "enterprise",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00016",
+    "name": "Erik Rossi",
+    "email": "erik.rossi16@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2024-07-28",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00017",
+    "name": "Sneha Nielsen",
+    "email": "sneha.nielsen17@example.com",
+    "country": "FI",
+    "city": "Espoo",
+    "signup_date": "2025-01-08",
+    "segment": "enterprise",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00018",
+    "name": "Emma Kumar",
+    "email": "emma.kumar18@example.com",
+    "country": "US",
+    "city": "Seattle",
+    "signup_date": "2024-11-09",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00019",
+    "name": "Lucia Patel",
+    "email": "lucia.patel19@example.com",
+    "country": "US",
+    "city": "Austin",
+    "signup_date": "2025-07-09",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00020",
+    "name": "Liam Wilson",
+    "email": "liam.wilson20@example.com",
+    "country": "FI",
+    "city": "Espoo",
+    "signup_date": "2024-08-16",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00021",
+    "name": "Mei Ivanova",
+    "email": "mei.ivanova21@example.com",
+    "country": "FI",
+    "city": "Espoo",
+    "signup_date": "2023-07-01",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00022",
+    "name": "Olivia Gupta",
+    "email": "olivia.gupta22@example.com",
+    "country": "DE",
+    "city": "Munich",
+    "signup_date": "2022-01-07",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00023",
+    "name": "Lucia Garcia",
+    "email": "lucia.garcia23@example.com",
+    "country": "GB",
+    "city": "London",
+    "signup_date": "2025-08-01",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00024",
+    "name": "Omar Gupta",
+    "email": "omar.gupta24@example.com",
+    "country": "FI",
+    "city": "Helsinki",
+    "signup_date": "2024-12-22",
+    "segment": "smb",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00025",
+    "name": "Aarav Patel",
+    "email": "aarav.patel25@example.com",
+    "country": "GB",
+    "city": "London",
+    "signup_date": "2023-09-22",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00026",
+    "name": "Erik Tan",
+    "email": "erik.tan26@example.com",
+    "country": "IN",
+    "city": "Chennai",
+    "signup_date": "2022-06-25",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00027",
+    "name": "Rohan Lopez",
+    "email": "rohan.lopez27@example.com",
+    "country": "DE",
+    "city": "Berlin",
+    "signup_date": "2025-01-30",
+    "segment": "smb",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00028",
+    "name": "Vikram Rossi",
+    "email": "vikram.rossi28@example.com",
+    "country": "FI",
+    "city": "Helsinki",
+    "signup_date": "2025-11-13",
+    "segment": "smb",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00029",
+    "name": "Mei Garcia",
+    "email": "mei.garcia29@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2024-06-16",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00030",
+    "name": "Sneha Iyer",
+    "email": "sneha.iyer30@example.com",
+    "country": "GB",
+    "city": "London",
+    "signup_date": "2022-02-13",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00031",
+    "name": "Kalyan Johansson",
+    "email": "kalyan.johansson31@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2022-05-01",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00032",
+    "name": "Lucia Smith",
+    "email": "lucia.smith32@example.com",
+    "country": "IN",
+    "city": "Bengaluru",
+    "signup_date": "2024-11-18",
+    "segment": "smb",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00033",
+    "name": "Vikram Korhonen",
+    "email": "vikram.korhonen33@example.com",
+    "country": "US",
+    "city": "Boston",
+    "signup_date": "2025-03-15",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00034",
+    "name": "Layla Schmidt",
+    "email": "layla.schmidt34@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2024-04-13",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00035",
+    "name": "Mei Taylor",
+    "email": "mei.taylor35@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2024-05-17",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00036",
+    "name": "Mei Garcia",
+    "email": "mei.garcia36@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2022-07-21",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00037",
+    "name": "Layla Chen",
+    "email": "layla.chen37@example.com",
+    "country": "IN",
+    "city": "Bengaluru",
+    "signup_date": "2023-05-25",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00038",
+    "name": "Rohan Taylor",
+    "email": "rohan.taylor38@example.com",
+    "country": "US",
+    "city": "Seattle",
+    "signup_date": "2023-07-25",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00039",
+    "name": "Noah Ali",
+    "email": "noah.ali39@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2025-02-01",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00040",
+    "name": "Kalyan Rossi",
+    "email": "kalyan.rossi40@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2023-04-30",
+    "segment": "enterprise",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00041",
+    "name": "Sofia Rao",
+    "email": "sofia.rao41@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2024-04-01",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00042",
+    "name": "Aarav Wilson",
+    "email": "aarav.wilson42@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2024-07-20",
+    "segment": "enterprise",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00043",
+    "name": "Rohan Rao",
+    "email": "rohan.rao43@example.com",
+    "country": "GB",
+    "city": "London",
+    "signup_date": "2023-03-22",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00044",
+    "name": "Diya Reddy",
+    "email": "diya.reddy44@example.com",
+    "country": "FI",
+    "city": "Helsinki",
+    "signup_date": "2024-09-03",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00045",
+    "name": "Lucia Gupta",
+    "email": "lucia.gupta45@example.com",
+    "country": "IN",
+    "city": "Hyderabad",
+    "signup_date": "2025-05-03",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00046",
+    "name": "Priya Ivanova",
+    "email": "priya.ivanova46@example.com",
+    "country": "FI",
+    "city": "Helsinki",
+    "signup_date": "2023-05-20",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00047",
+    "name": "Mei Tan",
+    "email": "mei.tan47@example.com",
+    "country": "FI",
+    "city": "Espoo",
+    "signup_date": "2024-12-06",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00048",
+    "name": "Mei Johansson",
+    "email": "mei.johansson48@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2023-05-04",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00049",
+    "name": "Mei Garcia",
+    "email": "mei.garcia49@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2024-07-25",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00050",
+    "name": "Noah Lee",
+    "email": "noah.lee50@example.com",
+    "country": "FI",
+    "city": "Helsinki",
+    "signup_date": "2022-07-24",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00051",
+    "name": "Rohan Rossi",
+    "email": "rohan.rossi51@example.com",
+    "country": "GB",
+    "city": "London",
+    "signup_date": "2022-05-21",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00052",
+    "name": "Ananya Müller",
+    "email": "ananya.müller52@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2025-01-17",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00053",
+    "name": "Freya Lopez",
+    "email": "freya.lopez53@example.com",
+    "country": "IN",
+    "city": "Mumbai",
+    "signup_date": "2022-10-03",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00054",
+    "name": "Yuki Korhonen",
+    "email": "yuki.korhonen54@example.com",
+    "country": "US",
+    "city": "Seattle",
+    "signup_date": "2023-07-12",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00055",
+    "name": "Vikram Lopez",
+    "email": "vikram.lopez55@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2023-06-25",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00056",
+    "name": "Kalyan Garcia",
+    "email": "kalyan.garcia56@example.com",
+    "country": "DE",
+    "city": "Berlin",
+    "signup_date": "2023-07-21",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00057",
+    "name": "Omar Nair",
+    "email": "omar.nair57@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2023-06-21",
+    "segment": "enterprise",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00058",
+    "name": "Mia Sharma",
+    "email": "mia.sharma58@example.com",
+    "country": "IN",
+    "city": "Bengaluru",
+    "signup_date": "2022-06-04",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00059",
+    "name": "Elias Korhonen",
+    "email": "elias.korhonen59@example.com",
+    "country": "US",
+    "city": "Austin",
+    "signup_date": "2024-05-30",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00060",
+    "name": "Emma Ivanova",
+    "email": "emma.ivanova60@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2022-03-23",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00061",
+    "name": "Mei Patel",
+    "email": "mei.patel61@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2025-02-20",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00062",
+    "name": "Lucia Gupta",
+    "email": "lucia.gupta62@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2022-12-29",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00063",
+    "name": "Yuki Rossi",
+    "email": "yuki.rossi63@example.com",
+    "country": "GB",
+    "city": "London",
+    "signup_date": "2024-04-23",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00064",
+    "name": "Layla Johansson",
+    "email": "layla.johansson64@example.com",
+    "country": "IN",
+    "city": "Hyderabad",
+    "signup_date": "2024-02-23",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00065",
+    "name": "Vikram Sato",
+    "email": "vikram.sato65@example.com",
+    "country": "DE",
+    "city": "Munich",
+    "signup_date": "2023-12-18",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00066",
+    "name": "Aarav Lopez",
+    "email": "aarav.lopez66@example.com",
+    "country": "US",
+    "city": "Seattle",
+    "signup_date": "2024-03-27",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00067",
+    "name": "Omar Singh",
+    "email": "omar.singh67@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2025-08-06",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00068",
+    "name": "Priya Ivanova",
+    "email": "priya.ivanova68@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2023-01-01",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00069",
+    "name": "Aino Taylor",
+    "email": "aino.taylor69@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2023-10-05",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00070",
+    "name": "Erik Tan",
+    "email": "erik.tan70@example.com",
+    "country": "US",
+    "city": "Austin",
+    "signup_date": "2023-06-06",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00071",
+    "name": "Lukas Rossi",
+    "email": "lukas.rossi71@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2025-01-07",
+    "segment": "smb",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00072",
+    "name": "Kalyan Lopez",
+    "email": "kalyan.lopez72@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2025-06-30",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00073",
+    "name": "Lukas Das",
+    "email": "lukas.das73@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2024-04-16",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00074",
+    "name": "Mia Nair",
+    "email": "mia.nair74@example.com",
+    "country": "US",
+    "city": "Boston",
+    "signup_date": "2024-05-11",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00075",
+    "name": "Aino Tan",
+    "email": "aino.tan75@example.com",
+    "country": "GB",
+    "city": "London",
+    "signup_date": "2024-04-11",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00076",
+    "name": "Vikram Taylor",
+    "email": "vikram.taylor76@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2025-04-02",
+    "segment": "enterprise",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00077",
+    "name": "Noah Lopez",
+    "email": "noah.lopez77@example.com",
+    "country": "US",
+    "city": "Seattle",
+    "signup_date": "2024-11-12",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00078",
+    "name": "Meera Virtanen",
+    "email": "meera.virtanen78@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2025-07-20",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00079",
+    "name": "Mei Das",
+    "email": "mei.das79@example.com",
+    "country": "US",
+    "city": "Austin",
+    "signup_date": "2023-02-12",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00080",
+    "name": "Sneha Schmidt",
+    "email": "sneha.schmidt80@example.com",
+    "country": "FI",
+    "city": "Espoo",
+    "signup_date": "2022-05-30",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00081",
+    "name": "Hiro Johansson",
+    "email": "hiro.johansson81@example.com",
+    "country": "DE",
+    "city": "Munich",
+    "signup_date": "2024-10-09",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00082",
+    "name": "Wei Johansson",
+    "email": "wei.johansson82@example.com",
+    "country": "IN",
+    "city": "Chennai",
+    "signup_date": "2022-08-07",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00083",
+    "name": "Layla Johansson",
+    "email": "layla.johansson83@example.com",
+    "country": "FI",
+    "city": "Helsinki",
+    "signup_date": "2024-08-09",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00084",
+    "name": "Noah Nair",
+    "email": "noah.nair84@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2024-08-09",
+    "segment": "enterprise",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00085",
+    "name": "Carlos Rossi",
+    "email": "carlos.rossi85@example.com",
+    "country": "FI",
+    "city": "Helsinki",
+    "signup_date": "2024-07-02",
+    "segment": "enterprise",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00086",
+    "name": "Arjun Khan",
+    "email": "arjun.khan86@example.com",
+    "country": "US",
+    "city": "Seattle",
+    "signup_date": "2025-07-29",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00087",
+    "name": "Arjun Müller",
+    "email": "arjun.müller87@example.com",
+    "country": "IN",
+    "city": "Bengaluru",
+    "signup_date": "2023-08-09",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00088",
+    "name": "John Ivanova",
+    "email": "john.ivanova88@example.com",
+    "country": "FI",
+    "city": "Helsinki",
+    "signup_date": "2022-06-15",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00089",
+    "name": "Liam Johansson",
+    "email": "liam.johansson89@example.com",
+    "country": "US",
+    "city": "Austin",
+    "signup_date": "2025-12-17",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00090",
+    "name": "Olivia Smith",
+    "email": "olivia.smith90@example.com",
+    "country": "FI",
+    "city": "Espoo",
+    "signup_date": "2024-08-12",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00091",
+    "name": "Carlos Taylor",
+    "email": "carlos.taylor91@example.com",
+    "country": "DE",
+    "city": "Berlin",
+    "signup_date": "2025-04-11",
+    "segment": "enterprise",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00092",
+    "name": "Aarav Brown",
+    "email": "aarav.brown92@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2024-03-09",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00093",
+    "name": "Sneha Singh",
+    "email": "sneha.singh93@example.com",
+    "country": "DE",
+    "city": "Berlin",
+    "signup_date": "2024-09-21",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00094",
+    "name": "Mei Lopez",
+    "email": "mei.lopez94@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2024-04-08",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00095",
+    "name": "Aino Korhonen",
+    "email": "aino.korhonen95@example.com",
+    "country": "IN",
+    "city": "Pune",
+    "signup_date": "2024-03-17",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00096",
+    "name": "Wei Taylor",
+    "email": "wei.taylor96@example.com",
+    "country": "US",
+    "city": "Austin",
+    "signup_date": "2024-08-03",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00097",
+    "name": "Liam Smith",
+    "email": "liam.smith97@example.com",
+    "country": "US",
+    "city": "Seattle",
+    "signup_date": "2024-07-20",
+    "segment": "smb",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00098",
+    "name": "Arjun Khan",
+    "email": "arjun.khan98@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2024-05-13",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00099",
+    "name": "Aarav Nielsen",
+    "email": "aarav.nielsen99@example.com",
+    "country": "FI",
+    "city": "Espoo",
+    "signup_date": "2022-04-17",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00100",
+    "name": "Omar Garcia",
+    "email": "omar.garcia100@example.com",
+    "country": "IN",
+    "city": "Bengaluru",
+    "signup_date": "2022-03-05",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00101",
+    "name": "Aino Nair",
+    "email": "aino.nair101@example.com",
+    "country": "US",
+    "city": "Seattle",
+    "signup_date": "2022-09-16",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00102",
+    "name": "Noah Johansson",
+    "email": "noah.johansson102@example.com",
+    "country": "GB",
+    "city": "London",
+    "signup_date": "2024-01-26",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00103",
+    "name": "Meera Patel",
+    "email": "meera.patel103@example.com",
+    "country": "FI",
+    "city": "Espoo",
+    "signup_date": "2022-02-22",
+    "segment": "enterprise",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00104",
+    "name": "Hiro Rao",
+    "email": "hiro.rao104@example.com",
+    "country": "IN",
+    "city": "Bengaluru",
+    "signup_date": "2025-04-27",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00105",
+    "name": "Lucia Lopez",
+    "email": "lucia.lopez105@example.com",
+    "country": "FI",
+    "city": "Helsinki",
+    "signup_date": "2022-09-05",
+    "segment": "smb",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00106",
+    "name": "Mei Brown",
+    "email": "mei.brown106@example.com",
+    "country": "IN",
+    "city": "Mumbai",
+    "signup_date": "2024-11-02",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00107",
+    "name": "Carlos Schmidt",
+    "email": "carlos.schmidt107@example.com",
+    "country": "IN",
+    "city": "Mumbai",
+    "signup_date": "2024-06-06",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00108",
+    "name": "Olivia Gupta",
+    "email": "olivia.gupta108@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2024-12-04",
+    "segment": "enterprise",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00109",
+    "name": "Olivia Sato",
+    "email": "olivia.sato109@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2025-04-28",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00110",
+    "name": "Carlos Rossi",
+    "email": "carlos.rossi110@example.com",
+    "country": "IN",
+    "city": "Chennai",
+    "signup_date": "2023-07-26",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00111",
+    "name": "Elias Lee",
+    "email": "elias.lee111@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2024-02-16",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00112",
+    "name": "Lucia Smith",
+    "email": "lucia.smith112@example.com",
+    "country": "US",
+    "city": "Austin",
+    "signup_date": "2024-09-25",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00113",
+    "name": "John Singh",
+    "email": "john.singh113@example.com",
+    "country": "FI",
+    "city": "Espoo",
+    "signup_date": "2025-12-07",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00114",
+    "name": "Kalyan Kumar",
+    "email": "kalyan.kumar114@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2024-04-12",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00115",
+    "name": "Wei Johansson",
+    "email": "wei.johansson115@example.com",
+    "country": "DE",
+    "city": "Berlin",
+    "signup_date": "2024-07-06",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00116",
+    "name": "Sneha Wilson",
+    "email": "sneha.wilson116@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2023-05-14",
+    "segment": "smb",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00117",
+    "name": "Mia Virtanen",
+    "email": "mia.virtanen117@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2024-05-21",
+    "segment": "smb",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00118",
+    "name": "Arjun Das",
+    "email": "arjun.das118@example.com",
+    "country": "GB",
+    "city": "London",
+    "signup_date": "2023-04-18",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00119",
+    "name": "Priya Nielsen",
+    "email": "priya.nielsen119@example.com",
+    "country": "FI",
+    "city": "Helsinki",
+    "signup_date": "2025-11-14",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00120",
+    "name": "Yuki Schmidt",
+    "email": "yuki.schmidt120@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2025-04-22",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00121",
+    "name": "Meera Kumar",
+    "email": "meera.kumar121@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2023-01-03",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00122",
+    "name": "Arjun Reddy",
+    "email": "arjun.reddy122@example.com",
+    "country": "IN",
+    "city": "Mumbai",
+    "signup_date": "2025-02-07",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00123",
+    "name": "Priya Chen",
+    "email": "priya.chen123@example.com",
+    "country": "IN",
+    "city": "Mumbai",
+    "signup_date": "2025-03-21",
+    "segment": "enterprise",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00124",
+    "name": "Noah Smith",
+    "email": "noah.smith124@example.com",
+    "country": "US",
+    "city": "Seattle",
+    "signup_date": "2022-04-16",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00125",
+    "name": "Carlos Iyer",
+    "email": "carlos.iyer125@example.com",
+    "country": "DE",
+    "city": "Berlin",
+    "signup_date": "2024-10-04",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00126",
+    "name": "Rohan Ali",
+    "email": "rohan.ali126@example.com",
+    "country": "FI",
+    "city": "Helsinki",
+    "signup_date": "2023-09-15",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00127",
+    "name": "Mia Khan",
+    "email": "mia.khan127@example.com",
+    "country": "DE",
+    "city": "Berlin",
+    "signup_date": "2025-05-26",
+    "segment": "enterprise",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00128",
+    "name": "Freya Müller",
+    "email": "freya.müller128@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2025-04-20",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00129",
+    "name": "Aino Nielsen",
+    "email": "aino.nielsen129@example.com",
+    "country": "IN",
+    "city": "Bengaluru",
+    "signup_date": "2023-03-02",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00130",
+    "name": "Ananya Kumar",
+    "email": "ananya.kumar130@example.com",
+    "country": "US",
+    "city": "Austin",
+    "signup_date": "2025-02-04",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00131",
+    "name": "Olivia Müller",
+    "email": "olivia.müller131@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2025-05-01",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00132",
+    "name": "Sneha Das",
+    "email": "sneha.das132@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2023-08-03",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00133",
+    "name": "Freya Singh",
+    "email": "freya.singh133@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2025-07-04",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00134",
+    "name": "Mia Kumar",
+    "email": "mia.kumar134@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2022-11-02",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00135",
+    "name": "Diya Gupta",
+    "email": "diya.gupta135@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2023-09-22",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00136",
+    "name": "Noah Johansson",
+    "email": "noah.johansson136@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2025-12-04",
+    "segment": "smb",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00137",
+    "name": "Noah Iyer",
+    "email": "noah.iyer137@example.com",
+    "country": "FI",
+    "city": "Espoo",
+    "signup_date": "2022-03-23",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00138",
+    "name": "Aarav Iyer",
+    "email": "aarav.iyer138@example.com",
+    "country": "US",
+    "city": "Boston",
+    "signup_date": "2025-10-12",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00139",
+    "name": "Elias Reddy",
+    "email": "elias.reddy139@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2022-12-25",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00140",
+    "name": "Ananya Tan",
+    "email": "ananya.tan140@example.com",
+    "country": "DE",
+    "city": "Munich",
+    "signup_date": "2025-07-24",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00141",
+    "name": "Emma Taylor",
+    "email": "emma.taylor141@example.com",
+    "country": "GB",
+    "city": "London",
+    "signup_date": "2023-10-20",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00142",
+    "name": "Olivia Johansson",
+    "email": "olivia.johansson142@example.com",
+    "country": "DE",
+    "city": "Munich",
+    "signup_date": "2023-08-14",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00143",
+    "name": "Kalyan Smith",
+    "email": "kalyan.smith143@example.com",
+    "country": "GB",
+    "city": "London",
+    "signup_date": "2023-10-25",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00144",
+    "name": "Mei Chen",
+    "email": "mei.chen144@example.com",
+    "country": "FI",
+    "city": "Espoo",
+    "signup_date": "2024-08-04",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00145",
+    "name": "Lukas Brown",
+    "email": "lukas.brown145@example.com",
+    "country": "FI",
+    "city": "Espoo",
+    "signup_date": "2024-10-17",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00146",
+    "name": "Arjun Korhonen",
+    "email": "arjun.korhonen146@example.com",
+    "country": "US",
+    "city": "Seattle",
+    "signup_date": "2023-08-13",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00147",
+    "name": "Aarav Garcia",
+    "email": "aarav.garcia147@example.com",
+    "country": "FI",
+    "city": "Helsinki",
+    "signup_date": "2023-05-06",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00148",
+    "name": "Mia Taylor",
+    "email": "mia.taylor148@example.com",
+    "country": "IN",
+    "city": "Hyderabad",
+    "signup_date": "2023-04-06",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00149",
+    "name": "Wei Sato",
+    "email": "wei.sato149@example.com",
+    "country": "US",
+    "city": "Boston",
+    "signup_date": "2024-10-17",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00150",
+    "name": "Olivia Sato",
+    "email": "olivia.sato150@example.com",
+    "country": "DE",
+    "city": "Berlin",
+    "signup_date": "2024-08-25",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00151",
+    "name": "Liam Rao",
+    "email": "liam.rao151@example.com",
+    "country": "FI",
+    "city": "Helsinki",
+    "signup_date": "2024-11-06",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00152",
+    "name": "Omar Ali",
+    "email": "omar.ali152@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2024-04-29",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00153",
+    "name": "Meera Nielsen",
+    "email": "meera.nielsen153@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2025-04-17",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00154",
+    "name": "Mia Schmidt",
+    "email": "mia.schmidt154@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2023-11-12",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00155",
+    "name": "Lucia Rao",
+    "email": "lucia.rao155@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2023-05-05",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00156",
+    "name": "Diya Smith",
+    "email": "diya.smith156@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2024-08-26",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00157",
+    "name": "Sofia Reddy",
+    "email": "sofia.reddy157@example.com",
+    "country": "US",
+    "city": "Boston",
+    "signup_date": "2024-10-25",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00158",
+    "name": "Lucia Chen",
+    "email": "lucia.chen158@example.com",
+    "country": "DE",
+    "city": "Munich",
+    "signup_date": "2022-07-24",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00159",
+    "name": "Olivia Chen",
+    "email": "olivia.chen159@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2022-11-13",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00160",
+    "name": "John Lee",
+    "email": "john.lee160@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2024-03-25",
+    "segment": "smb",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00161",
+    "name": "John Garcia",
+    "email": "john.garcia161@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2024-09-26",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00162",
+    "name": "Wei Lopez",
+    "email": "wei.lopez162@example.com",
+    "country": "GB",
+    "city": "London",
+    "signup_date": "2023-04-11",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00163",
+    "name": "Omar Garcia",
+    "email": "omar.garcia163@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2022-07-25",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00164",
+    "name": "Erik Sharma",
+    "email": "erik.sharma164@example.com",
+    "country": "IN",
+    "city": "Hyderabad",
+    "signup_date": "2023-10-27",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00165",
+    "name": "Emma Taylor",
+    "email": "emma.taylor165@example.com",
+    "country": "US",
+    "city": "Boston",
+    "signup_date": "2023-05-16",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00166",
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta166@example.com",
+    "country": "IN",
+    "city": "Chennai",
+    "signup_date": "2025-06-02",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00167",
+    "name": "Freya Tan",
+    "email": "freya.tan167@example.com",
+    "country": "US",
+    "city": "Seattle",
+    "signup_date": "2023-04-21",
+    "segment": "smb",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00168",
+    "name": "Arjun Lopez",
+    "email": "arjun.lopez168@example.com",
+    "country": "IN",
+    "city": "Mumbai",
+    "signup_date": "2024-08-10",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00169",
+    "name": "Noah Brown",
+    "email": "noah.brown169@example.com",
+    "country": "FI",
+    "city": "Espoo",
+    "signup_date": "2023-09-05",
+    "segment": "smb",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00170",
+    "name": "Lucia Das",
+    "email": "lucia.das170@example.com",
+    "country": "US",
+    "city": "Seattle",
+    "signup_date": "2024-02-27",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00171",
+    "name": "Liam Tan",
+    "email": "liam.tan171@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2025-03-23",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00172",
+    "name": "Carlos Lopez",
+    "email": "carlos.lopez172@example.com",
+    "country": "DE",
+    "city": "Berlin",
+    "signup_date": "2023-07-17",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00173",
+    "name": "Carlos Ivanova",
+    "email": "carlos.ivanova173@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2023-04-17",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00174",
+    "name": "Aino Singh",
+    "email": "aino.singh174@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2025-09-12",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00175",
+    "name": "Meera Ali",
+    "email": "meera.ali175@example.com",
+    "country": "DE",
+    "city": "Munich",
+    "signup_date": "2022-03-10",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00176",
+    "name": "Freya Das",
+    "email": "freya.das176@example.com",
+    "country": "GB",
+    "city": "London",
+    "signup_date": "2024-04-30",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00177",
+    "name": "Layla Korhonen",
+    "email": "layla.korhonen177@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2024-12-23",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00178",
+    "name": "Freya Sato",
+    "email": "freya.sato178@example.com",
+    "country": "DE",
+    "city": "Munich",
+    "signup_date": "2023-08-28",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00179",
+    "name": "Kalyan Nair",
+    "email": "kalyan.nair179@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2023-04-08",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00180",
+    "name": "Layla Wilson",
+    "email": "layla.wilson180@example.com",
+    "country": "IN",
+    "city": "Pune",
+    "signup_date": "2023-06-26",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00181",
+    "name": "Emma Lopez",
+    "email": "emma.lopez181@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2025-10-08",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00182",
+    "name": "Priya Lopez",
+    "email": "priya.lopez182@example.com",
+    "country": "US",
+    "city": "Austin",
+    "signup_date": "2024-08-23",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00183",
+    "name": "Wei Iyer",
+    "email": "wei.iyer183@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2024-08-08",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00184",
+    "name": "Rohan Reddy",
+    "email": "rohan.reddy184@example.com",
+    "country": "IN",
+    "city": "Chennai",
+    "signup_date": "2023-09-16",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00185",
+    "name": "Sneha Ivanova",
+    "email": "sneha.ivanova185@example.com",
+    "country": "FI",
+    "city": "Espoo",
+    "signup_date": "2022-10-05",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00186",
+    "name": "Mei Nielsen",
+    "email": "mei.nielsen186@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2025-01-11",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00187",
+    "name": "Wei Patel",
+    "email": "wei.patel187@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2024-09-29",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00188",
+    "name": "Hiro Brown",
+    "email": "hiro.brown188@example.com",
+    "country": "US",
+    "city": "Seattle",
+    "signup_date": "2024-06-27",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00189",
+    "name": "Priya Lopez",
+    "email": "priya.lopez189@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2025-01-20",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00190",
+    "name": "Arjun Rao",
+    "email": "arjun.rao190@example.com",
+    "country": "IN",
+    "city": "Hyderabad",
+    "signup_date": "2024-07-20",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00191",
+    "name": "Diya Ali",
+    "email": "diya.ali191@example.com",
+    "country": "GB",
+    "city": "London",
+    "signup_date": "2023-05-14",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00192",
+    "name": "Carlos Khan",
+    "email": "carlos.khan192@example.com",
+    "country": "FI",
+    "city": "Helsinki",
+    "signup_date": "2023-03-01",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00193",
+    "name": "Omar Nair",
+    "email": "omar.nair193@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2025-05-05",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00194",
+    "name": "Rohan Korhonen",
+    "email": "rohan.korhonen194@example.com",
+    "country": "GB",
+    "city": "London",
+    "signup_date": "2022-12-24",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00195",
+    "name": "Aarav Brown",
+    "email": "aarav.brown195@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2023-05-03",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00196",
+    "name": "Arjun Reddy",
+    "email": "arjun.reddy196@example.com",
+    "country": "US",
+    "city": "Boston",
+    "signup_date": "2024-05-12",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00197",
+    "name": "Sofia Müller",
+    "email": "sofia.müller197@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2024-01-12",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00198",
+    "name": "Aino Reddy",
+    "email": "aino.reddy198@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2025-09-11",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00199",
+    "name": "Diya Schmidt",
+    "email": "diya.schmidt199@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2024-04-02",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00200",
+    "name": "Hiro Rossi",
+    "email": "hiro.rossi200@example.com",
+    "country": "DE",
+    "city": "Berlin",
+    "signup_date": "2022-05-31",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00201",
+    "name": "Kalyan Nair",
+    "email": "kalyan.nair201@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2025-07-02",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00202",
+    "name": "Noah Virtanen",
+    "email": "noah.virtanen202@example.com",
+    "country": "FI",
+    "city": "Helsinki",
+    "signup_date": "2024-05-31",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00203",
+    "name": "Olivia Müller",
+    "email": "olivia.müller203@example.com",
+    "country": "US",
+    "city": "Seattle",
+    "signup_date": "2024-04-27",
+    "segment": "enterprise",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00204",
+    "name": "Olivia Nielsen",
+    "email": "olivia.nielsen204@example.com",
+    "country": "IN",
+    "city": "Chennai",
+    "signup_date": "2023-10-03",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00205",
+    "name": "Emma Nair",
+    "email": "emma.nair205@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2024-08-29",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00206",
+    "name": "Kalyan Taylor",
+    "email": "kalyan.taylor206@example.com",
+    "country": "IN",
+    "city": "Bengaluru",
+    "signup_date": "2024-02-03",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00207",
+    "name": "Mei Patel",
+    "email": "mei.patel207@example.com",
+    "country": "DE",
+    "city": "Munich",
+    "signup_date": "2023-12-26",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00208",
+    "name": "Aino Das",
+    "email": "aino.das208@example.com",
+    "country": "GB",
+    "city": "London",
+    "signup_date": "2022-08-01",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00209",
+    "name": "Sneha Chen",
+    "email": "sneha.chen209@example.com",
+    "country": "IN",
+    "city": "Pune",
+    "signup_date": "2023-12-19",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00210",
+    "name": "Omar Singh",
+    "email": "omar.singh210@example.com",
+    "country": "FI",
+    "city": "Espoo",
+    "signup_date": "2023-04-09",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00211",
+    "name": "Aarav Gupta",
+    "email": "aarav.gupta211@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2025-12-10",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00212",
+    "name": "Aarav Gupta",
+    "email": "aarav.gupta212@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2022-10-21",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00213",
+    "name": "Yuki Garcia",
+    "email": "yuki.garcia213@example.com",
+    "country": "IN",
+    "city": "Pune",
+    "signup_date": "2022-07-07",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00214",
+    "name": "Olivia Müller",
+    "email": "olivia.müller214@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2022-11-19",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00215",
+    "name": "Omar Tan",
+    "email": "omar.tan215@example.com",
+    "country": "FI",
+    "city": "Helsinki",
+    "signup_date": "2022-06-23",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00216",
+    "name": "Omar Lee",
+    "email": "omar.lee216@example.com",
+    "country": "IN",
+    "city": "Hyderabad",
+    "signup_date": "2025-10-12",
+    "segment": "smb",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00217",
+    "name": "Mei Taylor",
+    "email": "mei.taylor217@example.com",
+    "country": "DE",
+    "city": "Munich",
+    "signup_date": "2025-05-28",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00218",
+    "name": "Vikram Khan",
+    "email": "vikram.khan218@example.com",
+    "country": "FI",
+    "city": "Espoo",
+    "signup_date": "2022-08-22",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00219",
+    "name": "Meera Lopez",
+    "email": "meera.lopez219@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2025-04-29",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00220",
+    "name": "Sneha Wilson",
+    "email": "sneha.wilson220@example.com",
+    "country": "FI",
+    "city": "Helsinki",
+    "signup_date": "2022-04-23",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00221",
+    "name": "Vikram Khan",
+    "email": "vikram.khan221@example.com",
+    "country": "US",
+    "city": "Seattle",
+    "signup_date": "2023-06-08",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00222",
+    "name": "Aarav Schmidt",
+    "email": "aarav.schmidt222@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2024-05-31",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00223",
+    "name": "Mia Johansson",
+    "email": "mia.johansson223@example.com",
+    "country": "US",
+    "city": "Boston",
+    "signup_date": "2024-10-21",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00224",
+    "name": "Liam Chen",
+    "email": "liam.chen224@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2022-03-28",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00225",
+    "name": "Freya Iyer",
+    "email": "freya.iyer225@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2023-10-04",
+    "segment": "enterprise",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00226",
+    "name": "Meera Patel",
+    "email": "meera.patel226@example.com",
+    "country": "DE",
+    "city": "Munich",
+    "signup_date": "2022-02-12",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00227",
+    "name": "Carlos Johansson",
+    "email": "carlos.johansson227@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2022-06-30",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00228",
+    "name": "Olivia Tan",
+    "email": "olivia.tan228@example.com",
+    "country": "DE",
+    "city": "Berlin",
+    "signup_date": "2024-12-09",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00229",
+    "name": "Yuki Smith",
+    "email": "yuki.smith229@example.com",
+    "country": "US",
+    "city": "Austin",
+    "signup_date": "2023-11-14",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00230",
+    "name": "Lukas Virtanen",
+    "email": "lukas.virtanen230@example.com",
+    "country": "US",
+    "city": "Seattle",
+    "signup_date": "2023-12-17",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00231",
+    "name": "Priya Nair",
+    "email": "priya.nair231@example.com",
+    "country": "GB",
+    "city": "London",
+    "signup_date": "2023-02-09",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00232",
+    "name": "Ananya Khan",
+    "email": "ananya.khan232@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2024-10-08",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00233",
+    "name": "Lucia Garcia",
+    "email": "lucia.garcia233@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2022-11-06",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00234",
+    "name": "Noah Garcia",
+    "email": "noah.garcia234@example.com",
+    "country": "GB",
+    "city": "London",
+    "signup_date": "2023-07-17",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00235",
+    "name": "Meera Müller",
+    "email": "meera.müller235@example.com",
+    "country": "DE",
+    "city": "Berlin",
+    "signup_date": "2022-03-19",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00236",
+    "name": "Kalyan Garcia",
+    "email": "kalyan.garcia236@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2022-07-04",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00237",
+    "name": "Noah Rossi",
+    "email": "noah.rossi237@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2025-03-16",
+    "segment": "smb",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00238",
+    "name": "Lukas Nair",
+    "email": "lukas.nair238@example.com",
+    "country": "IN",
+    "city": "Hyderabad",
+    "signup_date": "2024-07-11",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00239",
+    "name": "Lukas Garcia",
+    "email": "lukas.garcia239@example.com",
+    "country": "US",
+    "city": "Austin",
+    "signup_date": "2022-03-22",
+    "segment": "enterprise",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00240",
+    "name": "Lukas Virtanen",
+    "email": "lukas.virtanen240@example.com",
+    "country": "FI",
+    "city": "Espoo",
+    "signup_date": "2022-11-22",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00241",
+    "name": "Liam Taylor",
+    "email": "liam.taylor241@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2023-11-24",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00242",
+    "name": "John Patel",
+    "email": "john.patel242@example.com",
+    "country": "FI",
+    "city": "Espoo",
+    "signup_date": "2025-10-21",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00243",
+    "name": "Yuki Chen",
+    "email": "yuki.chen243@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2025-05-19",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00244",
+    "name": "Elias Lopez",
+    "email": "elias.lopez244@example.com",
+    "country": "US",
+    "city": "Seattle",
+    "signup_date": "2023-12-18",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00245",
+    "name": "Aino Johansson",
+    "email": "aino.johansson245@example.com",
+    "country": "IN",
+    "city": "Pune",
+    "signup_date": "2023-09-27",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00246",
+    "name": "Carlos Nair",
+    "email": "carlos.nair246@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2025-12-10",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00247",
+    "name": "Aarav Brown",
+    "email": "aarav.brown247@example.com",
+    "country": "GB",
+    "city": "London",
+    "signup_date": "2023-01-05",
+    "segment": "smb",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00248",
+    "name": "Vikram Kumar",
+    "email": "vikram.kumar248@example.com",
+    "country": "US",
+    "city": "Austin",
+    "signup_date": "2022-11-14",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00249",
+    "name": "Lukas Khan",
+    "email": "lukas.khan249@example.com",
+    "country": "FI",
+    "city": "Helsinki",
+    "signup_date": "2024-12-14",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00250",
+    "name": "Aino Wilson",
+    "email": "aino.wilson250@example.com",
+    "country": "US",
+    "city": "Austin",
+    "signup_date": "2022-11-29",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00251",
+    "name": "Diya Taylor",
+    "email": "diya.taylor251@example.com",
+    "country": "GB",
+    "city": "London",
+    "signup_date": "2025-10-17",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00252",
+    "name": "Omar Nielsen",
+    "email": "omar.nielsen252@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2024-07-08",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00253",
+    "name": "Layla Ali",
+    "email": "layla.ali253@example.com",
+    "country": "DE",
+    "city": "Munich",
+    "signup_date": "2023-02-02",
+    "segment": "enterprise",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00254",
+    "name": "Omar Das",
+    "email": "omar.das254@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2024-02-22",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00255",
+    "name": "Layla Lee",
+    "email": "layla.lee255@example.com",
+    "country": "US",
+    "city": "Austin",
+    "signup_date": "2023-05-28",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00256",
+    "name": "Mia Rossi",
+    "email": "mia.rossi256@example.com",
+    "country": "IN",
+    "city": "Pune",
+    "signup_date": "2025-12-27",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00257",
+    "name": "Kalyan Khan",
+    "email": "kalyan.khan257@example.com",
+    "country": "US",
+    "city": "Seattle",
+    "signup_date": "2023-07-13",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00258",
+    "name": "Kalyan Rossi",
+    "email": "kalyan.rossi258@example.com",
+    "country": "US",
+    "city": "Seattle",
+    "signup_date": "2024-07-12",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00259",
+    "name": "Diya Wilson",
+    "email": "diya.wilson259@example.com",
+    "country": "FI",
+    "city": "Helsinki",
+    "signup_date": "2024-02-05",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00260",
+    "name": "Emma Kumar",
+    "email": "emma.kumar260@example.com",
+    "country": "IN",
+    "city": "Hyderabad",
+    "signup_date": "2023-10-15",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00261",
+    "name": "Rohan Reddy",
+    "email": "rohan.reddy261@example.com",
+    "country": "GB",
+    "city": "London",
+    "signup_date": "2024-08-25",
+    "segment": "enterprise",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00262",
+    "name": "Aino Sharma",
+    "email": "aino.sharma262@example.com",
+    "country": "IN",
+    "city": "Mumbai",
+    "signup_date": "2022-02-08",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00263",
+    "name": "Mia Nielsen",
+    "email": "mia.nielsen263@example.com",
+    "country": "FI",
+    "city": "Espoo",
+    "signup_date": "2024-12-16",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00264",
+    "name": "Sneha Das",
+    "email": "sneha.das264@example.com",
+    "country": "IN",
+    "city": "Bengaluru",
+    "signup_date": "2022-04-08",
+    "segment": "enterprise",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00265",
+    "name": "Kalyan Patel",
+    "email": "kalyan.patel265@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2024-10-20",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00266",
+    "name": "Meera Taylor",
+    "email": "meera.taylor266@example.com",
+    "country": "IN",
+    "city": "Mumbai",
+    "signup_date": "2025-06-13",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00267",
+    "name": "Ananya Lopez",
+    "email": "ananya.lopez267@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2022-06-25",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00268",
+    "name": "Liam Chen",
+    "email": "liam.chen268@example.com",
+    "country": "DE",
+    "city": "Munich",
+    "signup_date": "2022-03-31",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00269",
+    "name": "Yuki Sharma",
+    "email": "yuki.sharma269@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2022-05-19",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00270",
+    "name": "Omar Tan",
+    "email": "omar.tan270@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2023-11-12",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00271",
+    "name": "Mia Smith",
+    "email": "mia.smith271@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2025-08-09",
+    "segment": "enterprise",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00272",
+    "name": "Wei Gupta",
+    "email": "wei.gupta272@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2022-10-04",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00273",
+    "name": "Meera Rao",
+    "email": "meera.rao273@example.com",
+    "country": "IN",
+    "city": "Hyderabad",
+    "signup_date": "2023-02-13",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00274",
+    "name": "Lukas Wilson",
+    "email": "lukas.wilson274@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2025-01-17",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00275",
+    "name": "Omar Garcia",
+    "email": "omar.garcia275@example.com",
+    "country": "US",
+    "city": "Seattle",
+    "signup_date": "2023-08-09",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00276",
+    "name": "Arjun Patel",
+    "email": "arjun.patel276@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2024-01-24",
+    "segment": "enterprise",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00277",
+    "name": "Erik Wilson",
+    "email": "erik.wilson277@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2023-01-18",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00278",
+    "name": "Freya Ali",
+    "email": "freya.ali278@example.com",
+    "country": "FI",
+    "city": "Helsinki",
+    "signup_date": "2023-07-01",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00279",
+    "name": "Olivia Lee",
+    "email": "olivia.lee279@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2023-01-05",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00280",
+    "name": "Kalyan Smith",
+    "email": "kalyan.smith280@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2023-08-29",
+    "segment": "enterprise",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00281",
+    "name": "Ananya Johansson",
+    "email": "ananya.johansson281@example.com",
+    "country": "DE",
+    "city": "Munich",
+    "signup_date": "2023-12-21",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00282",
+    "name": "Aino Taylor",
+    "email": "aino.taylor282@example.com",
+    "country": "GB",
+    "city": "London",
+    "signup_date": "2025-08-02",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00283",
+    "name": "Emma Virtanen",
+    "email": "emma.virtanen283@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2025-10-23",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00284",
+    "name": "Lucia Lee",
+    "email": "lucia.lee284@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2024-06-16",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00285",
+    "name": "Sneha Khan",
+    "email": "sneha.khan285@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2024-01-21",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00286",
+    "name": "Aino Nair",
+    "email": "aino.nair286@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2024-07-10",
+    "segment": "smb",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00287",
+    "name": "Omar Iyer",
+    "email": "omar.iyer287@example.com",
+    "country": "FI",
+    "city": "Espoo",
+    "signup_date": "2022-10-09",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00288",
+    "name": "Wei Singh",
+    "email": "wei.singh288@example.com",
+    "country": "US",
+    "city": "Austin",
+    "signup_date": "2022-08-21",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00289",
+    "name": "Lukas Wilson",
+    "email": "lukas.wilson289@example.com",
+    "country": "FI",
+    "city": "Espoo",
+    "signup_date": "2022-08-30",
+    "segment": "smb",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00290",
+    "name": "Vikram Lee",
+    "email": "vikram.lee290@example.com",
+    "country": "GB",
+    "city": "Manchester",
+    "signup_date": "2025-11-22",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00291",
+    "name": "Rohan Chen",
+    "email": "rohan.chen291@example.com",
+    "country": "IN",
+    "city": "Bengaluru",
+    "signup_date": "2024-07-14",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00292",
+    "name": "Layla Lopez",
+    "email": "layla.lopez292@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2023-10-17",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00293",
+    "name": "Erik Das",
+    "email": "erik.das293@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2022-11-19",
+    "segment": "smb",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00294",
+    "name": "Priya Rao",
+    "email": "priya.rao294@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2022-10-12",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00295",
+    "name": "Emma Korhonen",
+    "email": "emma.korhonen295@example.com",
+    "country": "FI",
+    "city": "Espoo",
+    "signup_date": "2024-01-26",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00296",
+    "name": "Kalyan Das",
+    "email": "kalyan.das296@example.com",
+    "country": "DE",
+    "city": "Munich",
+    "signup_date": "2024-09-07",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00297",
+    "name": "Rohan Smith",
+    "email": "rohan.smith297@example.com",
+    "country": "SE",
+    "city": "Stockholm",
+    "signup_date": "2022-06-01",
+    "segment": "enterprise",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00298",
+    "name": "Rohan Ivanova",
+    "email": "rohan.ivanova298@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2025-02-03",
+    "segment": "retail",
+    "is_active": "false"
+  },
+  {
+    "customer_id": "C00299",
+    "name": "Lukas Rossi",
+    "email": "lukas.rossi299@example.com",
+    "country": "SG",
+    "city": "Singapore",
+    "signup_date": "2022-04-24",
+    "segment": "retail",
+    "is_active": "true"
+  },
+  {
+    "customer_id": "C00300",
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta300@example.com",
+    "country": "GB",
+    "city": "London",
+    "signup_date": "2025-12-23",
+    "segment": "smb",
+    "is_active": "true"
+  }
+]

@@ -5,6 +5,7 @@ Start with `python tools/nb_watch.py --loop` (checks every 10s). Fires once the
 file has been still for SETTLE seconds. Claude only edits markdown cells, so its
 own saves never re-trigger this. First sight of a notebook only records its cells.
 """
+
 import hashlib, json, shutil, subprocess, sys, time
 from pathlib import Path
 
@@ -16,7 +17,7 @@ except ImportError:
 REPO = Path(__file__).resolve().parent.parent
 STATE = Path.home() / ".nb-watch/state.json"
 LOG = Path.home() / ".nb-watch/nb-watch.log"
-SETTLE = 15     # seconds the file must be still before reacting to new/edited code cells
+SETTLE = 15  # seconds the file must be still before reacting to new/edited code cells
 CLAUDE = shutil.which("claude")
 
 PROMPT = """The notebook {nb} has new or changed code cell(s): {ids} (the code may have been half-typed earlier; judge it as it is now).
@@ -31,18 +32,35 @@ Finish with a one-line summary."""
 
 def code_cells(nb):
     cells = json.loads(nb.read_text(encoding="utf-8"))["cells"]
-    return {c["id"]: hashlib.md5("".join(c["source"]).encode()).hexdigest()
-            for c in cells if c["cell_type"] == "code" and "".join(c["source"]).strip()}
+    return {
+        c["id"]: hashlib.md5("".join(c["source"]).encode()).hexdigest()
+        for c in cells
+        if c["cell_type"] == "code" and "".join(c["source"]).strip()
+    }
 
 
 def run(nb, ids, log):
     log.write(f"{time.ctime()} {nb.name}: triggering for {ids}\n")
     log.flush()
     subprocess.run(
-        [CLAUDE, "-p",  # prompt via stdin: multi-line args break through claude.cmd
-         "--allowedTools", "Read,Edit,Bash(python -I:*)",
-         "--permission-mode", "acceptEdits", "--max-budget-usd", "0.50"],
-        cwd=REPO, input=PROMPT.format(nb=nb, ids=", ".join(ids)), text=True, encoding="utf-8", stdout=log, stderr=log, timeout=600)
+        [
+            CLAUDE,
+            "-p",  # prompt via stdin: multi-line args break through claude.cmd
+            "--allowedTools",
+            "Read,Edit,Bash(python -I:*)",
+            "--permission-mode",
+            "acceptEdits",
+            "--max-budget-usd",
+            "0.50",
+        ],
+        cwd=REPO,
+        input=PROMPT.format(nb=nb, ids=", ".join(ids)),
+        text=True,
+        encoding="utf-8",
+        stdout=log,
+        stderr=log,
+        timeout=600,
+    )
 
 
 def main():
@@ -63,10 +81,15 @@ def main():
         try:
             cur = code_cells(nb)
         except Exception as e:  # half-written JSON: try next tick
-            print(f"{time.ctime()} skip {nb.name}: {e}", file=open(LOG, "a", encoding="utf-8"))
+            print(
+                f"{time.ctime()} skip {nb.name}: {e}",
+                file=open(LOG, "a", encoding="utf-8"),
+            )
             continue
         st = state.get(str(nb))
-        if not isinstance(st, dict):  # first sight (or old list-format state): baseline only
+        if not isinstance(
+            st, dict
+        ):  # first sight (or old list-format state): baseline only
             state[str(nb)] = {"hash": cur, "recent": {}}
             continue
         known = st["hash"]

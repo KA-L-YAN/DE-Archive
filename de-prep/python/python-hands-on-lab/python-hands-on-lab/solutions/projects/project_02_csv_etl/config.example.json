@@ -1,0 +1,7 @@
+{
+  "input_dir": "../../datasets/incoming",
+  "output_dir": "output",
+  "pattern": "orders_*.csv",
+  "max_reject_ratio": 0.25,
+  "customers_file": "customers.json"
+}

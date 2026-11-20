@@ -1,0 +1,11 @@
+pandas<4,>=2.2
+numpy>=1.26
+requests<3,>=2.31
+tzdata>=2024.1
+jupyterlab<5,>=4.2
+ipykernel>=6.29
+nbformat>=5.9
+pytest<10,>=8.0
+
+[spark]
+pyspark<5,>=3.5

@@ -1,0 +1,3 @@
+# Optional extra for 12_pyspark_preparation/04_intro_pyspark.ipynb. Requires a Java 17+ runtime on PATH.
+-r requirements.txt
+pyspark>=3.5,<5

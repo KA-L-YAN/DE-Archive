@@ -1,0 +1,13 @@
+{
+  "pipeline": "orders_daily",
+  "input_dir": "datasets/incoming",
+  "output_dir": "output/orders",
+  "file_pattern": "orders_*.csv",
+  "dedupe_key": [
+    "order_id"
+  ],
+  "order_by": "updated_at",
+  "log_level": "INFO",
+  "batch_size": 500,
+  "fail_on_reject_ratio": 0.2
+}

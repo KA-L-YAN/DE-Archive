@@ -1,0 +1,132 @@
+# Mini data platform configuration. Paths are relative to this file.
+# TOML 1.0: an inline table { ... } must stay on one line (arrays [ ... ] may span lines).
+# Override any [platform] key with an environment variable, e.g. DATAPLAT_MAX_REJECT_RATIO=0.1
+
+[platform]
+name = "lab-platform"
+data_root = "{lab_root}/datasets"     # {lab_root} = nearest folder containing datasets/ and labkit/
+warehouse = "output/warehouse"
+state_dir = "output/state"
+log_level = "INFO"
+max_reject_ratio = 0.2
+
+# ------------------------------------------------------------------ sources
+[sources.customers]
+type = "csv"
+path = "csv/customers.csv"
+
+[sources.products]
+type = "csv"
+path = "csv/products.csv"
+
+[sources.orders_daily]
+type = "csv_partitions"
+path = "daily"
+partition_key = "dt"
+
+[sources.events]
+type = "jsonl"
+path = "json/events.jsonl"
+
+# ------------------------------------------------------------------ dimensions
+[pipelines.dim_customer]
+source = "customers"
+steps = [
+  { op = "strip", columns = ["customer_id", "name", "email", "country", "city", "segment"] },
+  { op = "title", columns = ["name"] },
+  { op = "lower", columns = ["email", "segment"] },
+  { op = "upper", columns = ["country"] },
+  { op = "cast", column = "signup_date", to = "date" },
+  { op = "cast", column = "is_active", to = "bool" },
+  { op = "validate", rules = [
+      { column = "customer_id", check = "required" },
+      { column = "email", check = "regex", pattern = '[^@\s]+@[^@\s]+\.[^@\s]+' },
+      { column = "country", check = "in", values = ["IN", "US", "GB", "DE", "FI", "SE", "SG"] },
+  ] },
+  { op = "dedupe", key = ["customer_id"], order_by = "signup_date", keep = "first" },
+  { op = "select", columns = ["customer_id", "name", "email", "country", "city", "segment", "signup_date", "is_active"] },
+]
+sink = { name = "dim_customer", mode = "overwrite" }
+quality = [
+  { check = "unique", column = "customer_id" },
+  { check = "not_null", column = "customer_id" },
+  { check = "row_count_min", value = 900 },
+  { check = "accepted_values", column = "segment", values = ["retail", "smb", "enterprise"], severity = "warn" },
+]
+
+[pipelines.dim_product]
+source = "products"
+steps = [
+  { op = "strip", columns = ["product_id", "name", "category"] },
+  { op = "cast", column = "price", to = "float" },
+  { op = "cast", column = "active", to = "bool" },
+  { op = "fill_null", columns = ["category"], value = "UNKNOWN" },
+  { op = "validate", rules = [{ column = "product_id", check = "required" }, { column = "price", check = "min", value = 0 }] },
+  { op = "select", columns = ["product_id", "name", "category", "price", "active"] },
+]
+sink = { name = "dim_product", mode = "overwrite" }
+quality = [{ check = "unique", column = "product_id" }, { check = "row_count_min", value = 150 }]
+
+# ------------------------------------------------------------------ facts (incremental)
+[pipelines.fact_orders]
+source = "orders_daily"
+incremental = true
+depends_on = ["dim_customer", "dim_product"]
+max_reject_ratio = 0.3
+steps = [
+  { op = "strip", columns = ["order_id", "customer_id", "product_id", "status", "channel", "country"] },
+  { op = "upper", columns = ["status", "country"] },
+  { op = "lower", columns = ["channel"] },
+  { op = "cast", column = "quantity", to = "int" },
+  { op = "cast", column = "unit_price", to = "float" },
+  { op = "cast", column = "order_ts", to = "timestamp" },
+  { op = "cast", column = "updated_at", to = "timestamp" },
+  { op = "validate", rules = [
+      { column = "order_id", check = "required" },
+      { column = "customer_id", check = "required" },
+      { column = "quantity", check = "min", value = 1 },
+      { column = "unit_price", check = "min", value = 0 },
+      { column = "order_ts", check = "required" },
+      { column = "status", check = "in", values = ["PLACED", "SHIPPED", "DELIVERED", "CANCELLED", "RETURNED"] },
+  ] },
+  { op = "derive", column = "amount", expr = "multiply", args = ["quantity", "unit_price"] },
+  { op = "derive", column = "order_date", expr = "date_of", args = ["order_ts"] },
+  { op = "lookup", table = "dim_customer", key = "customer_id", columns = ["segment"], prefix = "customer_", default = "unknown" },
+  { op = "lookup", table = "dim_product", key = "product_id", columns = ["category"], prefix = "product_" },
+  { op = "dedupe", key = ["order_id"], order_by = "updated_at", keep = "last" },
+  { op = "select", columns = ["order_id", "customer_id", "product_id", "quantity", "unit_price", "amount", "status", "channel", "country",
+                               "order_ts", "order_date", "updated_at", "customer_segment", "product_category", "dt"] },
+]
+sink = { name = "fact_orders", mode = "merge", key = "order_id", version = "updated_at", partition_by = "order_date" }
+quality = [{ check = "unique", column = "order_id" }, { check = "not_null", column = "order_date" }, { check = "range", column = "amount", min = 0 }]
+
+# ------------------------------------------------------------------ marts
+[pipelines.daily_revenue]
+source_table = "fact_orders"
+depends_on = ["fact_orders"]
+steps = [
+  { op = "filter", column = "status", operator = "!=", value = "CANCELLED" },
+  { op = "aggregate", group_by = ["order_date", "country"], metrics = { orders = { fn = "count_distinct", column = "order_id" }, units = { fn = "sum", column = "quantity" }, revenue = { fn = "sum", column = "amount" }, avg_order_value = { fn = "avg", column = "amount" } } },
+]
+sink = { name = "daily_revenue", mode = "overwrite" }
+quality = [{ check = "row_count_min", value = 1 }]
+
+[pipelines.segment_revenue]
+source_table = "fact_orders"
+depends_on = ["fact_orders"]
+steps = [
+  { op = "filter", column = "status", operator = "not_in", value = ["CANCELLED", "RETURNED"] },
+  { op = "aggregate", group_by = ["customer_segment", "product_category"], metrics = { orders = { fn = "count", column = "order_id" }, revenue = { fn = "sum", column = "amount" } } },
+]
+sink = { name = "segment_revenue", mode = "overwrite" }
+
+[pipelines.event_counts]
+source = "events"
+steps = [
+  { op = "validate", rules = [{ column = "user_id", check = "required" }, { column = "event_type", check = "required" }] },
+  { op = "cast", column = "ts", to = "timestamp" },
+  { op = "derive", column = "event_date", expr = "date_of", args = ["ts"] },
+  { op = "aggregate", group_by = ["event_date", "event_type"], metrics = { events = { fn = "count", column = "event_id" }, users = { fn = "count_distinct", column = "user_id" } } },
+]
+sink = { name = "event_counts", mode = "overwrite", partition_by = "event_date" }
+quality = [{ check = "not_null", column = "event_date" }]

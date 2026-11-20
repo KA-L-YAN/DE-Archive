@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: python-hands-on-lab
+Version: 1.0.0
+Summary: Hands-on Python practice lab for Java/Scala developers moving into data engineering.
+Requires-Python: >=3.11
+Requires-Dist: pandas<4,>=2.2
+Requires-Dist: numpy>=1.26
+Requires-Dist: requests<3,>=2.31
+Requires-Dist: tzdata>=2024.1
+Requires-Dist: jupyterlab<5,>=4.2
+Requires-Dist: ipykernel>=6.29
+Requires-Dist: nbformat>=5.9
+Requires-Dist: pytest<10,>=8.0
+Provides-Extra: spark
+Requires-Dist: pyspark<5,>=3.5; extra == "spark"

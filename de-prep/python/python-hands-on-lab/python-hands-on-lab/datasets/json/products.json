@@ -1,0 +1,1602 @@
+[
+  {
+    "product_id": "P0001",
+    "name": "Backpack Max",
+    "category": "Fashion",
+    "price": 7429.86,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0002",
+    "name": "Spark Guide Max",
+    "category": "Books",
+    "price": 378.94,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0003",
+    "name": "Monitor Basic",
+    "category": "Electronics",
+    "price": 79984.36,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0004",
+    "name": "Cycling Helmet X",
+    "category": "Sports",
+    "price": 1138.43,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0005",
+    "name": "Router Basic",
+    "category": "Electronics",
+    "price": 56838.12,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0006",
+    "name": "Basmati Rice Max",
+    "category": "Grocery",
+    "price": 117.89,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0007",
+    "name": "Cricket Bat X",
+    "category": "Sports",
+    "price": 11401.17,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0008",
+    "name": "T-Shirt Max",
+    "category": "Fashion",
+    "price": 9514.65,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0009",
+    "name": "Keyboard X",
+    "category": "Electronics",
+    "price": 94267.56,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0010",
+    "name": "Jacket Max",
+    "category": "Fashion",
+    "price": 606.38,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0011",
+    "name": "Spark Guide Lite",
+    "category": "Books",
+    "price": 1049.46,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0012",
+    "name": "Dumbbells Basic",
+    "category": "Sports",
+    "price": 9587.05,
+    "currency": "INR",
+    "active": "false"
+  },
+  {
+    "product_id": "P0013",
+    "name": "Keyboard X",
+    "category": "Electronics",
+    "price": 19343.04,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0014",
+    "name": "Olive Oil Lite",
+    "category": "Grocery",
+    "price": 1464.7,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0015",
+    "name": "Jacket Pro",
+    "category": "Fashion",
+    "price": 11429.82,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0016",
+    "name": "SQL Deep Dive Basic",
+    "category": "Books",
+    "price": 1294.41,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0017",
+    "name": "Sneakers Basic",
+    "category": "Fashion",
+    "price": 6094.42,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0018",
+    "name": "Backpack Pro",
+    "category": "Fashion",
+    "price": 12040.51,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0019",
+    "name": "Blender Pro",
+    "category": "Home",
+    "price": 13422.48,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0020",
+    "name": "Dark Chocolate Max",
+    "category": "Grocery",
+    "price": 569.82,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0021",
+    "name": "Cycling Helmet Basic",
+    "category": "Sports",
+    "price": 12219.86,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0022",
+    "name": "Cycling Helmet Lite",
+    "category": "Sports",
+    "price": 12263.06,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0023",
+    "name": "Blender Pro",
+    "category": "Home",
+    "price": 20842.56,
+    "currency": "INR",
+    "active": "false"
+  },
+  {
+    "product_id": "P0024",
+    "name": "Mouse Basic",
+    "category": "Electronics",
+    "price": 87304.55,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0025",
+    "name": "Laptop X",
+    "category": "Electronics",
+    "price": 112682.09,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0026",
+    "name": "Spark Guide Pro",
+    "category": "Books",
+    "price": 474.95,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0027",
+    "name": "SQL Deep Dive X",
+    "category": "Books",
+    "price": 623.97,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0028",
+    "name": "Clean Code Max",
+    "category": "Books",
+    "price": 2352.22,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0029",
+    "name": "Kettle Max",
+    "category": "Home",
+    "price": 19583.84,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0030",
+    "name": "SSD Basic",
+    "category": "Electronics",
+    "price": 8146.04,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0031",
+    "name": "Chair Basic",
+    "category": "Home",
+    "price": 24491.7,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0032",
+    "name": "Green Tea Basic",
+    "category": "Grocery",
+    "price": 1103.23,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0033",
+    "name": "T-Shirt Basic",
+    "category": "Fashion",
+    "price": 1907.1,
+    "currency": "INR",
+    "active": "false"
+  },
+  {
+    "product_id": "P0034",
+    "name": "Jacket Basic",
+    "category": "",
+    "price": 7665.94,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0035",
+    "name": "Laptop Basic",
+    "category": "Electronics",
+    "price": 84306.27,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0036",
+    "name": "T-Shirt X",
+    "category": "Fashion",
+    "price": 11656.23,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0037",
+    "name": "Coffee Beans X",
+    "category": "Grocery",
+    "price": 798.63,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0038",
+    "name": "Coffee Beans X",
+    "category": "Grocery",
+    "price": 1982.62,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0039",
+    "name": "Kettle Pro",
+    "category": "Home",
+    "price": 23982.91,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0040",
+    "name": "Jacket Pro",
+    "category": "Fashion",
+    "price": 11502.38,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0041",
+    "name": "Data Pipelines X",
+    "category": "Books",
+    "price": 1082.58,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0042",
+    "name": "Football Pro",
+    "category": "Sports",
+    "price": 6594.21,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0043",
+    "name": "Football Lite",
+    "category": "Sports",
+    "price": 3636.24,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0044",
+    "name": "Sneakers Basic",
+    "category": "Fashion",
+    "price": 11973.78,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0045",
+    "name": "Dark Chocolate Basic",
+    "category": "Grocery",
+    "price": 81.02,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0046",
+    "name": "Pillow Pro",
+    "category": "Home",
+    "price": 5527.66,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0047",
+    "name": "Backpack X",
+    "category": "Fashion",
+    "price": 8858.03,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0048",
+    "name": "Keyboard Basic",
+    "category": "Electronics",
+    "price": 57074.61,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0049",
+    "name": "Monitor Lite",
+    "category": "",
+    "price": 76286.35,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0050",
+    "name": "Router X",
+    "category": "Electronics",
+    "price": 71333.65,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0051",
+    "name": "Mouse Basic",
+    "category": "Electronics",
+    "price": 74259.41,
+    "currency": "INR",
+    "active": "false"
+  },
+  {
+    "product_id": "P0052",
+    "name": "SQL Deep Dive Max",
+    "category": "Books",
+    "price": 2458.04,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0053",
+    "name": "Lamp X",
+    "category": "Home",
+    "price": 8242.59,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0054",
+    "name": "Python Cookbook X",
+    "category": "Books",
+    "price": 344.41,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0055",
+    "name": "Green Tea Max",
+    "category": "Grocery",
+    "price": 904.39,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0056",
+    "name": "Keyboard Pro",
+    "category": "Electronics",
+    "price": 76230.79,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0057",
+    "name": "Python Cookbook Basic",
+    "category": "Books",
+    "price": 215.62,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0058",
+    "name": "Cycling Helmet Max",
+    "category": "Sports",
+    "price": 14571.74,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0059",
+    "name": "Dumbbells Lite",
+    "category": "Sports",
+    "price": 5022.18,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0060",
+    "name": "Data Pipelines X",
+    "category": "Books",
+    "price": 1570.43,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0061",
+    "name": "T-Shirt Max",
+    "category": "Fashion",
+    "price": 465.73,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0062",
+    "name": "Mouse X",
+    "category": "Electronics",
+    "price": 91574.02,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0063",
+    "name": "SQL Deep Dive Lite",
+    "category": "Books",
+    "price": 644.55,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0064",
+    "name": "Football Basic",
+    "category": "Sports",
+    "price": 12128.21,
+    "currency": "INR",
+    "active": "false"
+  },
+  {
+    "product_id": "P0065",
+    "name": "Cricket Bat Max",
+    "category": "Sports",
+    "price": 4673.85,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0066",
+    "name": "Coffee Beans Pro",
+    "category": "Grocery",
+    "price": 1852.48,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0067",
+    "name": "Router X",
+    "category": "Electronics",
+    "price": 107514.32,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0068",
+    "name": "Watch Max",
+    "category": "Fashion",
+    "price": 11307.21,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0069",
+    "name": "Python Cookbook Max",
+    "category": "Books",
+    "price": 744.37,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0070",
+    "name": "SQL Deep Dive Lite",
+    "category": "Books",
+    "price": 1544.71,
+    "currency": "INR",
+    "active": "false"
+  },
+  {
+    "product_id": "P0071",
+    "name": "Green Tea Lite",
+    "category": "Grocery",
+    "price": 936.23,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0072",
+    "name": "SQL Deep Dive Lite",
+    "category": "Books",
+    "price": 2442.78,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0073",
+    "name": "Python Cookbook X",
+    "category": "Books",
+    "price": 512.95,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0074",
+    "name": "Olive Oil Lite",
+    "category": "Grocery",
+    "price": 477.71,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0075",
+    "name": "Spark Guide Lite",
+    "category": "Books",
+    "price": 1470.34,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0076",
+    "name": "Dark Chocolate Basic",
+    "category": "Grocery",
+    "price": 471.06,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0077",
+    "name": "Basmati Rice Pro",
+    "category": "Grocery",
+    "price": 1484.55,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0078",
+    "name": "Kettle X",
+    "category": "Home",
+    "price": 23208.68,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0079",
+    "name": "T-Shirt Basic",
+    "category": "Fashion",
+    "price": 983.9,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0080",
+    "name": "T-Shirt Basic",
+    "category": "Fashion",
+    "price": 7396.81,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0081",
+    "name": "Router Basic",
+    "category": "Electronics",
+    "price": 67459.51,
+    "currency": "INR",
+    "active": "false"
+  },
+  {
+    "product_id": "P0082",
+    "name": "Football Lite",
+    "category": "Sports",
+    "price": 5464.37,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0083",
+    "name": "Laptop Basic",
+    "category": "Electronics",
+    "price": 20253.7,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0084",
+    "name": "Watch Pro",
+    "category": "Fashion",
+    "price": 7170.37,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0085",
+    "name": "Football Lite",
+    "category": "Sports",
+    "price": 6792.85,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0086",
+    "name": "Yoga Mat Pro",
+    "category": "Sports",
+    "price": 12495.05,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0087",
+    "name": "Kettle Max",
+    "category": "Home",
+    "price": 15428.39,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0088",
+    "name": "Python Cookbook X",
+    "category": "Books",
+    "price": 1891.25,
+    "currency": "INR",
+    "active": "false"
+  },
+  {
+    "product_id": "P0089",
+    "name": "Cricket Bat Pro",
+    "category": "Sports",
+    "price": 6706.88,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0090",
+    "name": "Desk Lite",
+    "category": "Home",
+    "price": 17710.08,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0091",
+    "name": "Data Pipelines Max",
+    "category": "Books",
+    "price": 460.18,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0092",
+    "name": "Sneakers Lite",
+    "category": "Fashion",
+    "price": 13509.72,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0093",
+    "name": "Basmati Rice Pro",
+    "category": "Grocery",
+    "price": 722.19,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0094",
+    "name": "T-Shirt Basic",
+    "category": "Fashion",
+    "price": 10302.98,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0095",
+    "name": "Kettle X",
+    "category": "Home",
+    "price": 16930.34,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0096",
+    "name": "Monitor Basic",
+    "category": "Electronics",
+    "price": 47490.61,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0097",
+    "name": "Mouse Lite",
+    "category": "Electronics",
+    "price": 83952.47,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0098",
+    "name": "Spark Guide Pro",
+    "category": "Books",
+    "price": 2429.02,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0099",
+    "name": "SQL Deep Dive Max",
+    "category": "Books",
+    "price": 1895.73,
+    "currency": "INR",
+    "active": "false"
+  },
+  {
+    "product_id": "P0100",
+    "name": "Python Cookbook Pro",
+    "category": "Books",
+    "price": 733.35,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0101",
+    "name": "Cricket Bat Basic",
+    "category": "Sports",
+    "price": 11872.19,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0102",
+    "name": "Dark Chocolate X",
+    "category": "Grocery",
+    "price": 917.25,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0103",
+    "name": "Clean Code Lite",
+    "category": "Books",
+    "price": 720.6,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0104",
+    "name": "Lamp Lite",
+    "category": "Home",
+    "price": 11560.84,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0105",
+    "name": "Spark Guide Max",
+    "category": "Books",
+    "price": 602.33,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0106",
+    "name": "Dumbbells Lite",
+    "category": "Sports",
+    "price": 931.54,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0107",
+    "name": "SQL Deep Dive Max",
+    "category": "Books",
+    "price": 670.86,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0108",
+    "name": "Cricket Bat Max",
+    "category": "Sports",
+    "price": 8181.49,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0109",
+    "name": "Jacket Pro",
+    "category": "Fashion",
+    "price": 6306.01,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0110",
+    "name": "SQL Deep Dive Max",
+    "category": "Books",
+    "price": 2430.35,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0111",
+    "name": "Jacket Max",
+    "category": "Fashion",
+    "price": 4630.77,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0112",
+    "name": "Sneakers X",
+    "category": "Fashion",
+    "price": 13865.39,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0113",
+    "name": "Router Pro",
+    "category": "Electronics",
+    "price": 66563.79,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0114",
+    "name": "Dark Chocolate Lite",
+    "category": "Grocery",
+    "price": 229.34,
+    "currency": "INR",
+    "active": "false"
+  },
+  {
+    "product_id": "P0115",
+    "name": "Dumbbells X",
+    "category": "Sports",
+    "price": 14106.63,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0116",
+    "name": "Python Cookbook Pro",
+    "category": "Books",
+    "price": 1223.55,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0117",
+    "name": "SSD Lite",
+    "category": "Electronics",
+    "price": 72777.06,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0118",
+    "name": "Webcam Basic",
+    "category": "Electronics",
+    "price": 102602.54,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0119",
+    "name": "Lamp Max",
+    "category": "Home",
+    "price": 7909.02,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0120",
+    "name": "T-Shirt Lite",
+    "category": "Fashion",
+    "price": 6885.06,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0121",
+    "name": "Basmati Rice Lite",
+    "category": "Grocery",
+    "price": 1941.2,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0122",
+    "name": "Green Tea X",
+    "category": "Grocery",
+    "price": 329.1,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0123",
+    "name": "Jacket Pro",
+    "category": "Fashion",
+    "price": 9023.5,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0124",
+    "name": "SSD Max",
+    "category": "Electronics",
+    "price": 67141.4,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0125",
+    "name": "Data Pipelines Lite",
+    "category": "Books",
+    "price": 864.77,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0126",
+    "name": "Blender Max",
+    "category": "Home",
+    "price": 18574.18,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0127",
+    "name": "Keyboard Max",
+    "category": "Electronics",
+    "price": 77225.71,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0128",
+    "name": "Headphones Basic",
+    "category": "Electronics",
+    "price": 108908.3,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0129",
+    "name": "Mouse Max",
+    "category": "Electronics",
+    "price": 116504.38,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0130",
+    "name": "Blender Basic",
+    "category": "Home",
+    "price": 21748.01,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0131",
+    "name": "Coffee Beans Max",
+    "category": "Grocery",
+    "price": 1170.76,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0132",
+    "name": "Spark Guide Pro",
+    "category": "Books",
+    "price": 1259.4,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0133",
+    "name": "Chair Pro",
+    "category": "Home",
+    "price": 10661.42,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0134",
+    "name": "Lamp Max",
+    "category": "Home",
+    "price": 16081.62,
+    "currency": "INR",
+    "active": "false"
+  },
+  {
+    "product_id": "P0135",
+    "name": "Data Pipelines Pro",
+    "category": "Books",
+    "price": 583.41,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0136",
+    "name": "Pillow Max",
+    "category": "Home",
+    "price": 17539.5,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0137",
+    "name": "Watch Max",
+    "category": "Fashion",
+    "price": 587.32,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0138",
+    "name": "Kettle Basic",
+    "category": "Home",
+    "price": 22796.37,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0139",
+    "name": "Spark Guide Lite",
+    "category": "Books",
+    "price": 2027.75,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0140",
+    "name": "Cycling Helmet X",
+    "category": "Sports",
+    "price": 12700.02,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0141",
+    "name": "Olive Oil Pro",
+    "category": "Grocery",
+    "price": 304.9,
+    "currency": "INR",
+    "active": "false"
+  },
+  {
+    "product_id": "P0142",
+    "name": "Desk Max",
+    "category": "Home",
+    "price": 11215.31,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0143",
+    "name": "Jacket Lite",
+    "category": "Fashion",
+    "price": 818.92,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0144",
+    "name": "Data Pipelines Lite",
+    "category": "Books",
+    "price": 906.09,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0145",
+    "name": "SSD Pro",
+    "category": "Electronics",
+    "price": 93188.16,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0146",
+    "name": "Monitor Pro",
+    "category": "Electronics",
+    "price": 79514.53,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0147",
+    "name": "Coffee Beans Max",
+    "category": "Grocery",
+    "price": 637.21,
+    "currency": "INR",
+    "active": "false"
+  },
+  {
+    "product_id": "P0148",
+    "name": "Mouse X",
+    "category": "Electronics",
+    "price": 108239.71,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0149",
+    "name": "Lamp Pro",
+    "category": "Home",
+    "price": 18730.84,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0150",
+    "name": "Jacket Max",
+    "category": "Fashion",
+    "price": 7708.76,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0151",
+    "name": "Spark Guide X",
+    "category": "Books",
+    "price": 2084.05,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0152",
+    "name": "Sneakers Lite",
+    "category": "Fashion",
+    "price": 2907.06,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0153",
+    "name": "Mouse Lite",
+    "category": "Electronics",
+    "price": 102304.17,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0154",
+    "name": "Cycling Helmet Lite",
+    "category": "Sports",
+    "price": 17247.87,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0155",
+    "name": "Kettle Basic",
+    "category": "Home",
+    "price": 5919.82,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0156",
+    "name": "Lamp Basic",
+    "category": "Home",
+    "price": 3656.17,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0157",
+    "name": "Cricket Bat X",
+    "category": "Sports",
+    "price": 1663.1,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0158",
+    "name": "Basmati Rice Basic",
+    "category": "Grocery",
+    "price": 657.41,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0159",
+    "name": "Green Tea X",
+    "category": "Grocery",
+    "price": 1969.68,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0160",
+    "name": "Router Max",
+    "category": "Electronics",
+    "price": 119848.07,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0161",
+    "name": "SSD Basic",
+    "category": "Electronics",
+    "price": 81505.4,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0162",
+    "name": "Olive Oil X",
+    "category": "Grocery",
+    "price": 1494.79,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0163",
+    "name": "Python Cookbook Max",
+    "category": "Books",
+    "price": 977.85,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0164",
+    "name": "Coffee Beans Lite",
+    "category": "Grocery",
+    "price": 1463.14,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0165",
+    "name": "Cycling Helmet X",
+    "category": "Sports",
+    "price": 14252.76,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0166",
+    "name": "Basmati Rice Basic",
+    "category": "Grocery",
+    "price": 1901.77,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0167",
+    "name": "Jacket Lite",
+    "category": "Fashion",
+    "price": 1976.44,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0168",
+    "name": "Green Tea Lite",
+    "category": "Grocery",
+    "price": 1487.71,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0169",
+    "name": "Coffee Beans Lite",
+    "category": "Grocery",
+    "price": 1373.45,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0170",
+    "name": "Watch Pro",
+    "category": "Fashion",
+    "price": 10051.44,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0171",
+    "name": "Olive Oil Lite",
+    "category": "Grocery",
+    "price": 1019.9,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0172",
+    "name": "Jacket X",
+    "category": "Fashion",
+    "price": 14307.63,
+    "currency": "INR",
+    "active": "false"
+  },
+  {
+    "product_id": "P0173",
+    "name": "Coffee Beans Basic",
+    "category": "Grocery",
+    "price": 1712.1,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0174",
+    "name": "Laptop Lite",
+    "category": "Electronics",
+    "price": 103382.78,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0175",
+    "name": "Dumbbells Basic",
+    "category": "Sports",
+    "price": 5761.09,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0176",
+    "name": "Router X",
+    "category": "Electronics",
+    "price": 69092.59,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0177",
+    "name": "Spark Guide Pro",
+    "category": "Books",
+    "price": 1336.79,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0178",
+    "name": "Jacket Max",
+    "category": "Fashion",
+    "price": 809.97,
+    "currency": "INR",
+    "active": "false"
+  },
+  {
+    "product_id": "P0179",
+    "name": "Desk X",
+    "category": "Home",
+    "price": 22316.06,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0180",
+    "name": "SSD Max",
+    "category": "Electronics",
+    "price": 50019.03,
+    "currency": "INR",
+    "active": "false"
+  },
+  {
+    "product_id": "P0181",
+    "name": "Data Pipelines Lite",
+    "category": "Books",
+    "price": 1561.82,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0182",
+    "name": "Headphones Pro",
+    "category": "Electronics",
+    "price": 3344.75,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0183",
+    "name": "Olive Oil X",
+    "category": "Grocery",
+    "price": 870.29,
+    "currency": "INR",
+    "active": "false"
+  },
+  {
+    "product_id": "P0184",
+    "name": "Dark Chocolate Pro",
+    "category": "Grocery",
+    "price": 785.59,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0185",
+    "name": "T-Shirt Basic",
+    "category": "Fashion",
+    "price": 10256.3,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0186",
+    "name": "Jacket Lite",
+    "category": "Fashion",
+    "price": 5704.04,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0187",
+    "name": "Coffee Beans X",
+    "category": "Grocery",
+    "price": 566.05,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0188",
+    "name": "Backpack Lite",
+    "category": "Fashion",
+    "price": 14385.9,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0189",
+    "name": "T-Shirt X",
+    "category": "Fashion",
+    "price": 1381.21,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0190",
+    "name": "Olive Oil Lite",
+    "category": "Grocery",
+    "price": 198.49,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0191",
+    "name": "Jacket Basic",
+    "category": "Fashion",
+    "price": 4974.27,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0192",
+    "name": "Blender X",
+    "category": "Home",
+    "price": 19156.79,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0193",
+    "name": "Keyboard X",
+    "category": "Electronics",
+    "price": 79635.6,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0194",
+    "name": "Basmati Rice X",
+    "category": "Grocery",
+    "price": 1711.91,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0195",
+    "name": "T-Shirt X",
+    "category": "Fashion",
+    "price": 7151.77,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0196",
+    "name": "Cricket Bat Basic",
+    "category": "Sports",
+    "price": 15511.17,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0197",
+    "name": "Dumbbells Basic",
+    "category": "Sports",
+    "price": 5308.68,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0198",
+    "name": "Cycling Helmet Lite",
+    "category": "Sports",
+    "price": 2220.46,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0199",
+    "name": "Clean Code Basic",
+    "category": "Books",
+    "price": 2478.97,
+    "currency": "INR",
+    "active": "true"
+  },
+  {
+    "product_id": "P0200",
+    "name": "Monitor Lite",
+    "category": "Electronics",
+    "price": 4466.91,
+    "currency": "INR",
+    "active": "true"
+  }
+]

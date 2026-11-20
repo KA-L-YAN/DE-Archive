@@ -1,0 +1,19 @@
+# Python 3.11+ required (tomllib, ExceptionGroup / except*, modern typing).
+# Ranges are tested combos: pandas 2.2.x and 3.0.x both work with every notebook and test.
+
+# --- core ---
+pandas>=2.2,<4
+numpy>=1.26
+requests>=2.31,<3
+tzdata>=2024.1          # IANA time zones for zoneinfo (needed on Windows)
+
+# --- notebooks ---
+jupyterlab>=4.2,<5
+ipykernel>=6.29
+nbformat>=5.9
+
+# --- testing ---
+pytest>=8.0,<10
+
+# --- optional: Level 12 notebook 04 (needs Java 17+). Uncomment or: pip install -r requirements-spark.txt
+# pyspark>=3.5,<5

@@ -1,0 +1,31 @@
+[project]
+name = "python-hands-on-lab"
+version = "1.0.0"
+description = "Hands-on Python practice lab for Java/Scala developers moving into data engineering."
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.2,<4",
+    "numpy>=1.26",
+    "requests>=2.31,<3",
+    "tzdata>=2024.1",
+    "jupyterlab>=4.2,<5",
+    "ipykernel>=6.29",
+    "nbformat>=5.9",
+    "pytest>=8.0,<10",
+]
+
+[project.optional-dependencies]
+spark = ["pyspark>=3.5,<5"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["labkit"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-rfE --import-mode=importlib"
+filterwarnings = ["ignore::DeprecationWarning:pyspark.*"]

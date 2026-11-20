@@ -1,0 +1,16 @@
+{
+  "job_name": "daily_sales",
+  "source": "s3://lab-raw-bucket/sales/",
+  "target": "s3://lab-processed-bucket/sales_daily/",
+  "rejected": "s3://lab-processed-bucket/rejected/sales/",
+  "partition_key": "ingest_date",
+  "min_quantity": 1,
+  "allowed_status": [
+    "PLACED",
+    "SHIPPED",
+    "DELIVERED",
+    "CANCELLED",
+    "RETURNED"
+  ],
+  "max_retries": 3
+}

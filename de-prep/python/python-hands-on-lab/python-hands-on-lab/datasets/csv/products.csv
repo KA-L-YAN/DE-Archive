@@ -1,0 +1,201 @@
+product_id,name,category,price,currency,active
+P0001,Backpack Max,Fashion,7429.86,INR,true
+P0002,Spark Guide Max,Books,378.94,INR,true
+P0003,Monitor Basic,Electronics,79984.36,INR,true
+P0004,Cycling Helmet X,Sports,1138.43,INR,true
+P0005,Router Basic,Electronics,56838.12,INR,true
+P0006,Basmati Rice Max,Grocery,117.89,INR,true
+P0007,Cricket Bat X,Sports,11401.17,INR,true
+P0008,T-Shirt Max,Fashion,9514.65,INR,true
+P0009,Keyboard X,Electronics,94267.56,INR,true
+P0010,Jacket Max,Fashion,606.38,INR,true
+P0011,Spark Guide Lite,Books,1049.46,INR,true
+P0012,Dumbbells Basic,Sports,9587.05,INR,false
+P0013,Keyboard X,Electronics,19343.04,INR,true
+P0014,Olive Oil Lite,Grocery,1464.7,INR,true
+P0015,Jacket Pro,Fashion,11429.82,INR,true
+P0016,SQL Deep Dive Basic,Books,1294.41,INR,true
+P0017,Sneakers Basic,Fashion,6094.42,INR,true
+P0018,Backpack Pro,Fashion,12040.51,INR,true
+P0019,Blender Pro,Home,13422.48,INR,true
+P0020,Dark Chocolate Max,Grocery,569.82,INR,true
+P0021,Cycling Helmet Basic,Sports,12219.86,INR,true
+P0022,Cycling Helmet Lite,Sports,12263.06,INR,true
+P0023,Blender Pro,Home,20842.56,INR,false
+P0024,Mouse Basic,Electronics,87304.55,INR,true
+P0025,Laptop X,Electronics,112682.09,INR,true
+P0026,Spark Guide Pro,Books,474.95,INR,true
+P0027,SQL Deep Dive X,Books,623.97,INR,true
+P0028,Clean Code Max,Books,2352.22,INR,true
+P0029,Kettle Max,Home,19583.84,INR,true
+P0030,SSD Basic,Electronics,8146.04,INR,true
+P0031,Chair Basic,Home,24491.7,INR,true
+P0032,Green Tea Basic,Grocery,1103.23,INR,true
+P0033,T-Shirt Basic,Fashion,1907.1,INR,false
+P0034,Jacket Basic,,7665.94,INR,true
+P0035,Laptop Basic,Electronics,84306.27,INR,true
+P0036,T-Shirt X,Fashion,11656.23,INR,true
+P0037,Coffee Beans X,Grocery,798.63,INR,true
+P0038,Coffee Beans X,Grocery,1982.62,INR,true
+P0039,Kettle Pro,Home,23982.91,INR,true
+P0040,Jacket Pro,Fashion,11502.38,INR,true
+P0041,Data Pipelines X,Books,1082.58,INR,true
+P0042,Football Pro,Sports,6594.21,INR,true
+P0043,Football Lite,Sports,3636.24,INR,true
+P0044,Sneakers Basic,Fashion,11973.78,INR,true
+P0045,Dark Chocolate Basic,Grocery,81.02,INR,true
+P0046,Pillow Pro,Home,5527.66,INR,true
+P0047,Backpack X,Fashion,8858.03,INR,true
+P0048,Keyboard Basic,Electronics,57074.61,INR,true
+P0049,Monitor Lite,,76286.35,INR,true
+P0050,Router X,Electronics,71333.65,INR,true
+P0051,Mouse Basic,Electronics,74259.41,INR,false
+P0052,SQL Deep Dive Max,Books,2458.04,INR,true
+P0053,Lamp X,Home,8242.59,INR,true
+P0054,Python Cookbook X,Books,344.41,INR,true
+P0055,Green Tea Max,Grocery,904.39,INR,true
+P0056,Keyboard Pro,Electronics,76230.79,INR,true
+P0057,Python Cookbook Basic,Books,215.62,INR,true
+P0058,Cycling Helmet Max,Sports,14571.74,INR,true
+P0059,Dumbbells Lite,Sports,5022.18,INR,true
+P0060,Data Pipelines X,Books,1570.43,INR,true
+P0061,T-Shirt Max,Fashion,465.73,INR,true
+P0062,Mouse X,Electronics,91574.02,INR,true
+P0063,SQL Deep Dive Lite,Books,644.55,INR,true
+P0064,Football Basic,Sports,12128.21,INR,false
+P0065,Cricket Bat Max,Sports,4673.85,INR,true
+P0066,Coffee Beans Pro,Grocery,1852.48,INR,true
+P0067,Router X,Electronics,107514.32,INR,true
+P0068,Watch Max,Fashion,11307.21,INR,true
+P0069,Python Cookbook Max,Books,744.37,INR,true
+P0070,SQL Deep Dive Lite,Books,1544.71,INR,false
+P0071,Green Tea Lite,Grocery,936.23,INR,true
+P0072,SQL Deep Dive Lite,Books,2442.78,INR,true
+P0073,Python Cookbook X,Books,512.95,INR,true
+P0074,Olive Oil Lite,Grocery,477.71,INR,true
+P0075,Spark Guide Lite,Books,1470.34,INR,true
+P0076,Dark Chocolate Basic,Grocery,471.06,INR,true
+P0077,Basmati Rice Pro,Grocery,1484.55,INR,true
+P0078,Kettle X,Home,23208.68,INR,true
+P0079,T-Shirt Basic,Fashion,983.9,INR,true
+P0080,T-Shirt Basic,Fashion,7396.81,INR,true
+P0081,Router Basic,Electronics,67459.51,INR,false
+P0082,Football Lite,Sports,5464.37,INR,true
+P0083,Laptop Basic,Electronics,20253.7,INR,true
+P0084,Watch Pro,Fashion,7170.37,INR,true
+P0085,Football Lite,Sports,6792.85,INR,true
+P0086,Yoga Mat Pro,Sports,12495.05,INR,true
+P0087,Kettle Max,Home,15428.39,INR,true
+P0088,Python Cookbook X,Books,1891.25,INR,false
+P0089,Cricket Bat Pro,Sports,6706.88,INR,true
+P0090,Desk Lite,Home,17710.08,INR,true
+P0091,Data Pipelines Max,Books,460.18,INR,true
+P0092,Sneakers Lite,Fashion,13509.72,INR,true
+P0093,Basmati Rice Pro,Grocery,722.19,INR,true
+P0094,T-Shirt Basic,Fashion,10302.98,INR,true
+P0095,Kettle X,Home,16930.34,INR,true
+P0096,Monitor Basic,Electronics,47490.61,INR,true
+P0097,Mouse Lite,Electronics,83952.47,INR,true
+P0098,Spark Guide Pro,Books,2429.02,INR,true
+P0099,SQL Deep Dive Max,Books,1895.73,INR,false
+P0100,Python Cookbook Pro,Books,733.35,INR,true
+P0101,Cricket Bat Basic,Sports,11872.19,INR,true
+P0102,Dark Chocolate X,Grocery,917.25,INR,true
+P0103,Clean Code Lite,Books,720.6,INR,true
+P0104,Lamp Lite,Home,11560.84,INR,true
+P0105,Spark Guide Max,Books,602.33,INR,true
+P0106,Dumbbells Lite,Sports,931.54,INR,true
+P0107,SQL Deep Dive Max,Books,670.86,INR,true
+P0108,Cricket Bat Max,Sports,8181.49,INR,true
+P0109,Jacket Pro,Fashion,6306.01,INR,true
+P0110,SQL Deep Dive Max,Books,2430.35,INR,true
+P0111,Jacket Max,Fashion,4630.77,INR,true
+P0112,Sneakers X,Fashion,13865.39,INR,true
+P0113,Router Pro,Electronics,66563.79,INR,true
+P0114,Dark Chocolate Lite,Grocery,229.34,INR,false
+P0115,Dumbbells X,Sports,14106.63,INR,true
+P0116,Python Cookbook Pro,Books,1223.55,INR,true
+P0117,SSD Lite,Electronics,72777.06,INR,true
+P0118,Webcam Basic,Electronics,102602.54,INR,true
+P0119,Lamp Max,Home,7909.02,INR,true
+P0120,T-Shirt Lite,Fashion,6885.06,INR,true
+P0121,Basmati Rice Lite,Grocery,1941.2,INR,true
+P0122,Green Tea X,Grocery,329.1,INR,true
+P0123,Jacket Pro,Fashion,9023.5,INR,true
+P0124,SSD Max,Electronics,67141.4,INR,true
+P0125,Data Pipelines Lite,Books,864.77,INR,true
+P0126,Blender Max,Home,18574.18,INR,true
+P0127,Keyboard Max,Electronics,77225.71,INR,true
+P0128,Headphones Basic,Electronics,108908.3,INR,true
+P0129,Mouse Max,Electronics,116504.38,INR,true
+P0130,Blender Basic,Home,21748.01,INR,true
+P0131,Coffee Beans Max,Grocery,1170.76,INR,true
+P0132,Spark Guide Pro,Books,1259.4,INR,true
+P0133,Chair Pro,Home,10661.42,INR,true
+P0134,Lamp Max,Home,16081.62,INR,false
+P0135,Data Pipelines Pro,Books,583.41,INR,true
+P0136,Pillow Max,Home,17539.5,INR,true
+P0137,Watch Max,Fashion,587.32,INR,true
+P0138,Kettle Basic,Home,22796.37,INR,true
+P0139,Spark Guide Lite,Books,2027.75,INR,true
+P0140,Cycling Helmet X,Sports,12700.02,INR,true
+P0141,Olive Oil Pro,Grocery,304.9,INR,false
+P0142,Desk Max,Home,11215.31,INR,true
+P0143,Jacket Lite,Fashion,818.92,INR,true
+P0144,Data Pipelines Lite,Books,906.09,INR,true
+P0145,SSD Pro,Electronics,93188.16,INR,true
+P0146,Monitor Pro,Electronics,79514.53,INR,true
+P0147,Coffee Beans Max,Grocery,637.21,INR,false
+P0148,Mouse X,Electronics,108239.71,INR,true
+P0149,Lamp Pro,Home,18730.84,INR,true
+P0150,Jacket Max,Fashion,7708.76,INR,true
+P0151,Spark Guide X,Books,2084.05,INR,true
+P0152,Sneakers Lite,Fashion,2907.06,INR,true
+P0153,Mouse Lite,Electronics,102304.17,INR,true
+P0154,Cycling Helmet Lite,Sports,17247.87,INR,true
+P0155,Kettle Basic,Home,5919.82,INR,true
+P0156,Lamp Basic,Home,3656.17,INR,true
+P0157,Cricket Bat X,Sports,1663.1,INR,true
+P0158,Basmati Rice Basic,Grocery,657.41,INR,true
+P0159,Green Tea X,Grocery,1969.68,INR,true
+P0160,Router Max,Electronics,119848.07,INR,true
+P0161,SSD Basic,Electronics,81505.4,INR,true
+P0162,Olive Oil X,Grocery,1494.79,INR,true
+P0163,Python Cookbook Max,Books,977.85,INR,true
+P0164,Coffee Beans Lite,Grocery,1463.14,INR,true
+P0165,Cycling Helmet X,Sports,14252.76,INR,true
+P0166,Basmati Rice Basic,Grocery,1901.77,INR,true
+P0167,Jacket Lite,Fashion,1976.44,INR,true
+P0168,Green Tea Lite,Grocery,1487.71,INR,true
+P0169,Coffee Beans Lite,Grocery,1373.45,INR,true
+P0170,Watch Pro,Fashion,10051.44,INR,true
+P0171,Olive Oil Lite,Grocery,1019.9,INR,true
+P0172,Jacket X,Fashion,14307.63,INR,false
+P0173,Coffee Beans Basic,Grocery,1712.1,INR,true
+P0174,Laptop Lite,Electronics,103382.78,INR,true
+P0175,Dumbbells Basic,Sports,5761.09,INR,true
+P0176,Router X,Electronics,69092.59,INR,true
+P0177,Spark Guide Pro,Books,1336.79,INR,true
+P0178,Jacket Max,Fashion,809.97,INR,false
+P0179,Desk X,Home,22316.06,INR,true
+P0180,SSD Max,Electronics,50019.03,INR,false
+P0181,Data Pipelines Lite,Books,1561.82,INR,true
+P0182,Headphones Pro,Electronics,3344.75,INR,true
+P0183,Olive Oil X,Grocery,870.29,INR,false
+P0184,Dark Chocolate Pro,Grocery,785.59,INR,true
+P0185,T-Shirt Basic,Fashion,10256.3,INR,true
+P0186,Jacket Lite,Fashion,5704.04,INR,true
+P0187,Coffee Beans X,Grocery,566.05,INR,true
+P0188,Backpack Lite,Fashion,14385.9,INR,true
+P0189,T-Shirt X,Fashion,1381.21,INR,true
+P0190,Olive Oil Lite,Grocery,198.49,INR,true
+P0191,Jacket Basic,Fashion,4974.27,INR,true
+P0192,Blender X,Home,19156.79,INR,true
+P0193,Keyboard X,Electronics,79635.6,INR,true
+P0194,Basmati Rice X,Grocery,1711.91,INR,true
+P0195,T-Shirt X,Fashion,7151.77,INR,true
+P0196,Cricket Bat Basic,Sports,15511.17,INR,true
+P0197,Dumbbells Basic,Sports,5308.68,INR,true
+P0198,Cycling Helmet Lite,Sports,2220.46,INR,true
+P0199,Clean Code Basic,Books,2478.97,INR,true
+P0200,Monitor Lite,Electronics,4466.91,INR,true
